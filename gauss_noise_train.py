@@ -19,8 +19,8 @@ NUM_SHUFFLES=1
 SHUFFLE_ID=1
 MAX_SNAPSHOTS=5
 DISPLAY_ITERS=1000 # display loss every N iters; one iter processes one batch
-SAVE_ITERS=25000 # save snapshots every n iters
-MAX_ITERS=150000 #----to test only
+SAVE_ITERS=50000 # save snapshots every n iters
+MAX_ITERS=300000 #----to test only
 
 #####################################################
 # Create training dataset
