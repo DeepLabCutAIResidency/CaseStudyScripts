@@ -84,4 +84,4 @@ deeplabcut.train_network(config_path,
                             allow_growth=True,
                             modelprefix=modelprefix) # allow_growth=True,
                             
-###GPU to 0, and removed rotation###
+###GPU to 1, and removed rotation###
