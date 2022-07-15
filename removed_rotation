@@ -47,8 +47,8 @@ train_pose_config_file,\
                                                             trainingsetindex=0, # default
                                                             modelprefix=modelprefix) # default
 edit_config(str(train_pose_config_file),
-            {'rotation': 0,
-             'rotratio': 0,
+            {'rotation': 0.0,
+             'rotratio': 0.0,
              'scale_jitter_lo': 0.5,
              'scale_jitter_up': 1.25,
              'mirror': False,
