@@ -19,8 +19,8 @@ NUM_SHUFFLES=1
 SHUFFLE_ID=1
 MAX_SNAPSHOTS=5
 DISPLAY_ITERS=1000 # display loss every N iters; one iter processes one batch
-SAVE_ITERS=50000 # save snapshots every n iters
-MAX_ITERS=300000 #----to test only
+SAVE_ITERS=25000 # save snapshots every n iters
+MAX_ITERS=150000 #----to test only
 
 #####################################################
 # Create training dataset
@@ -33,8 +33,8 @@ MAX_ITERS=300000 #----to test only
 # Create
 try:
     shutil.copytree(
-    os.path.join(projectpath, "dlc-models"),
-    os.path.join(projectpath, modelprefix, "dlc-models"))
+        os.path.join(projectpath, "dlc-models"),
+        os.path.join(projectpath, modelprefix, "dlc-models"))
 except FileExistsError:
     print("Folder exists already...")
 
@@ -43,10 +43,9 @@ except FileExistsError:
 train_pose_config_file,\
     test_pose_config_file, \
     snapshot_folder = deeplabcut.return_train_network_path(config_path,
-                                                            shuffle=0, 
+                                                            shuffle=SHUFFLE_ID, 
                                                             trainingsetindex=0, # default
                                                             modelprefix=modelprefix) # default
-
 edit_config(str(train_pose_config_file),
             {'rotation': 0,
              'rotratio': 0,
@@ -65,100 +64,17 @@ edit_config(str(train_pose_config_file),
                 'edge': False,
                 'emboss':
                     {'alpha': [0.0, 1.0],
-                    'strength': [0.5, 1.5],
-                    'embossratio': 0.1}},
+                    'strength': [0.5, 1.5]},
+                'embossratio': 0.1},
              'grayscale': False,
              'covering': True,
              'elastic_transform': True,
-             'gaussian_noise': 12.75}) 
+             'gaussian_noise': False}) 
 
-train_pose_config_file,\
-    test_pose_config_file, \
-    snapshot_folder = deeplabcut.return_train_network_path(config_path,
-                                                            shuffle=1, 
-                                                            trainingsetindex=0, # default
-                                                            modelprefix=modelprefix) # default
-
-edit_config(str(train_pose_config_file),
-            {'rotation': 0,
-             'rotratio': 0,
-             'scale_jitter_lo': 0.5,
-             'scale_jitter_up': 1.25,
-             'mirror': False,
-             'contrast':
-                {'clahe': True,
-                'claheratio': 0.1,
-                'histeq': True,
-                'histeqratio': 0.1},
-             'motion_blur': True,
-             'convolution':
-                {'sharpen': False,
-                'sharpenratio': 0.3,
-                'edge': False,
-                'emboss':
-                    {'alpha': [0.0, 1.0],
-                    'strength': [0.5, 1.5],
-                    'embossratio': 0.1}},
-             'grayscale': False,
-             'covering': True,
-             'elastic_transform': True,
-             'gaussian_noise': 12.75})
-
-train_pose_config_file,\
-    test_pose_config_file, \
-    snapshot_folder = deeplabcut.return_train_network_path(config_path,
-                                                            shuffle=2, 
-                                                            trainingsetindex=0, # default
-                                                            modelprefix=modelprefix) # default
-
-edit_config(str(train_pose_config_file),
-            {'rotation': 0,
-             'rotratio': 0,
-             'scale_jitter_lo': 0.5,
-             'scale_jitter_up': 1.25,
-             'mirror': False,
-             'contrast':
-                {'clahe': True,
-                'claheratio': 0.1,
-                'histeq': True,
-                'histeqratio': 0.1},
-             'motion_blur': True,
-             'convolution':
-                {'sharpen': False,
-                'sharpenratio': 0.3,
-                'edge': False,
-                'emboss':
-                    {'alpha': [0.0, 1.0],
-                    'strength': [0.5, 1.5],
-                    'embossratio': 0.1}},
-             'grayscale': False,
-             'covering': True,
-             'elastic_transform': True,
-             'gaussian_noise': 12.75})
 ####################################
 # Train
 deeplabcut.train_network(config_path,
-                            shuffle=0,
-                            max_snapshots_to_keep=MAX_SNAPSHOTS,
-                            displayiters=DISPLAY_ITERS,
-                            saveiters=SAVE_ITERS,
-                            maxiters=MAX_ITERS,
-                            gputouse=1,
-                            allow_growth=True,
-                            modelprefix=modelprefix) # allow_growth=True,
-
-deeplabcut.train_network(config_path,
-                            shuffle=1,
-                            max_snapshots_to_keep=MAX_SNAPSHOTS,
-                            displayiters=DISPLAY_ITERS,
-                            saveiters=SAVE_ITERS,
-                            maxiters=MAX_ITERS,
-                            gputouse=1,
-                            allow_growth=True,
-                            modelprefix=modelprefix) # allow_growth=True,
-
-deeplabcut.train_network(config_path,
-                            shuffle=2,
+                            shuffle=SHUFFLE_ID,
                             max_snapshots_to_keep=MAX_SNAPSHOTS,
                             displayiters=DISPLAY_ITERS,
                             saveiters=SAVE_ITERS,
