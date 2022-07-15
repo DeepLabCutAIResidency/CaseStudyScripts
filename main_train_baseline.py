@@ -46,7 +46,6 @@ train_pose_config_file,\
                                                             shuffle=SHUFFLE_ID, 
                                                             trainingsetindex=0, # default
                                                             modelprefix=modelprefix) # default
-
 edit_config(str(train_pose_config_file),
             {'rotation': 25,
              'rotratio': 0.4,
@@ -65,8 +64,8 @@ edit_config(str(train_pose_config_file),
                 'edge': False,
                 'emboss':
                     {'alpha': [0.0, 1.0],
-                    'strength': [0.5, 1.5],
-                    'embossratio': 0.1}},
+                    'strength': [0.5, 1.5]},
+                'embossratio': 0.1},
              'grayscale': False,
              'covering': True,
              'elastic_transform': True,
