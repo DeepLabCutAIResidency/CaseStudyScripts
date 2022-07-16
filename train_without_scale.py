@@ -11,7 +11,7 @@ config_path = '/media/data/stinkbugs-DLC-2022-07-15/config.yaml'
 projectpath = os.path.dirname(config_path)
 # Path.of(config_path)
 
-modelprefix = "data_augm_baseline"
+modelprefix = "data_augm_without_scale"
 
 ############################################################
 ## Set other params
@@ -49,8 +49,8 @@ train_pose_config_file,\
 edit_config(str(train_pose_config_file),
             {'rotation': 25,
              'rotratio': 0.4,
-             'scale_jitter_lo': 0.5,
-             'scale_jitter_up': 1.25,
+             'scale_jitter_lo': 1.0,
+             'scale_jitter_up': 1.0,
              'mirror': False,
              'contrast':
                 {'clahe': True,
@@ -62,7 +62,9 @@ edit_config(str(train_pose_config_file),
                 {'sharpen': False,
                 'sharpenratio': 0.3,
                 'edge': False,
-                'emboss': False, #---- i think this should just be T/F
+                'emboss':
+                    {'alpha': [0.0, 1.0],
+                    'strength': [0.5, 1.5]},
                 'embossratio': 0.1},
              'grayscale': False,
              'covering': True,
@@ -77,6 +79,6 @@ deeplabcut.train_network(config_path,
                             displayiters=DISPLAY_ITERS,
                             saveiters=SAVE_ITERS,
                             maxiters=MAX_ITERS,
-                            gputouse=2,
+                            gputouse=3,
                             allow_growth=True,
                             modelprefix=modelprefix) # allow_growth=True,

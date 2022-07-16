@@ -11,7 +11,7 @@ config_path = '/media/data/stinkbugs-DLC-2022-07-15/config.yaml'
 projectpath = os.path.dirname(config_path)
 # Path.of(config_path)
 
-modelprefix = "data_augm_baseline"
+modelprefix = "removed_rotation"
 
 ############################################################
 ## Set other params
@@ -47,8 +47,8 @@ train_pose_config_file,\
                                                             trainingsetindex=0, # default
                                                             modelprefix=modelprefix) # default
 edit_config(str(train_pose_config_file),
-            {'rotation': 25,
-             'rotratio': 0.4,
+            {'rotation': 0.0,
+             'rotratio': 0.0,
              'scale_jitter_lo': 0.5,
              'scale_jitter_up': 1.25,
              'mirror': False,
@@ -59,13 +59,15 @@ edit_config(str(train_pose_config_file),
                 'histeqratio': 0.1},
              'motion_blur': True,
              'convolution':
-                {'sharpen': False,
+                {'sharpen': True,
                 'sharpenratio': 0.3,
-                'edge': False,
-                'emboss': False, #---- i think this should just be T/F
+                'edge': True,
+                'emboss':
+                    {'alpha': [0.0, 1.0],
+                    'strength': [0.5, 1.5]},
                 'embossratio': 0.1},
              'grayscale': False,
-             'covering': True,
+             'covering': False,
              'elastic_transform': True,
              'gaussian_noise': False}) 
 
@@ -77,6 +79,8 @@ deeplabcut.train_network(config_path,
                             displayiters=DISPLAY_ITERS,
                             saveiters=SAVE_ITERS,
                             maxiters=MAX_ITERS,
-                            gputouse=2,
+                            gputouse=3,
                             allow_growth=True,
                             modelprefix=modelprefix) # allow_growth=True,
+                            
+###GPU to 3, and add convolution and remove covering###
