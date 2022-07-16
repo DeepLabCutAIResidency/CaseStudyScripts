@@ -63,10 +63,8 @@ edit_config(str(train_pose_config_file),
                 {'sharpen': False,
                 'sharpenratio': 0.3,
                 'edge': False,
-                'emboss':
-                    {'alpha': [0.0, 1.0],
-                    'strength': [0.5, 1.5],
-                    'embossratio': 0.1}},
+                'emboss': False, #---- i think this should just be T/F
+                'embossratio': 0.1},
              'grayscale': False,
              'covering': True,
              'elastic_transform': True,
