@@ -46,6 +46,7 @@ train_pose_config_file,\
                                                             shuffle=SHUFFLE_ID, 
                                                             trainingsetindex=0, # default
                                                             modelprefix=modelprefix) # default
+
 edit_config(str(train_pose_config_file),
             {'rotation': 25,
              'rotratio': 0.4,
