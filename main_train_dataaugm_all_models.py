@@ -19,21 +19,22 @@ import re
 ##########################################################
 ### Set config path of project with labelled data
 # (we assume create_training_dataset has already been run)
-config_path = '/media/data/stinkbugs-DLC-2022-07-15/config.yaml'
+config_path = '/Users/user/Desktop/sabris-mouse/sabris-mouse-nirel-2022-07-06/config.yaml' #'/media/data/stinkbugs-DLC-2022-07-15/config.yaml'
 
 # Other params
-NUM_SHUFFLES=3
-SHUFFLE_ID=1
+# NUM_SHUFFLES=3
+# SHUFFLE_ID=1
 TRAINING_SET_INDEX=0 # default
 MAX_SNAPSHOTS=3
 DISPLAY_ITERS=1 # display loss every N iters; one iter processes one batch
 SAVE_ITERS=1 # save snapshots every n iters
 MAX_ITERS=1
-TRAIN_ITERATION=1
+TRAIN_ITERATION=0 # default is 0. can this be extracted?
 
-N_GPUS = 4 # to assing models to one gpu everytime?
+# N_GPUS = 4 # to assing models to one gpu everytime?
 
-
+# each model subfolder is named with the format: <modelprefix_pre>_<id>_<str_id>
+modelprefix_pre = "data_augm"
 
 ##########################################################
 ### Get config as dict and associated paths
@@ -41,32 +42,29 @@ cfg = read_config(config_path)
 project_path = cfg["project_path"] # or: os.path.dirname(config_path) #dlc_models_path = os.path.join(project_path, "dlc-models")
 training_datasets_path = os.path.join(project_path, "training-datasets")
 
-#Get shuffles
+# Get shuffles
 iteration_folder = os.path.join(training_datasets_path, 'iteration-' + str(TRAIN_ITERATION))
 dataset_top_folder = os.path.join(iteration_folder, os.listdir(iteration_folder)[0])
 files_in_dataset_top_folder = os.listdir(dataset_top_folder)
-shuffle_numbers = []
+list_shuffle_numbers = []
 for file in files_in_dataset_top_folder:
     if file.endswith(".mat"):
         shuffleNum = int(re.findall('[0-9]+',file)[-1])
-        shuffle_numbers.append(shuffleNum)
-shuffle_numbers.sort()
+        list_shuffle_numbers.append(shuffleNum)
+list_shuffle_numbers.sort()
 
-base_train_pose_config_file_paths = []
-base_test_pose_config_file_paths = []
-
-for shuffle_number in shuffle_numbers:
+# Get train and test pose config file paths from base project, for each shuffle
+list_base_train_pose_config_file_paths = []
+list_base_test_pose_config_file_paths = []
+for shuffle_number in list_shuffle_numbers:
     base_train_pose_config_file_path_TEMP,\
     base_test_pose_config_file_path_TEMP,\
     _ = deeplabcut.return_train_network_path(config_path,
-                                                shuffle=shuffle_number,
-                                                trainingsetindex=0)  # base_train_pose_config_file
-    base_train_pose_config_file_paths.append(base_train_pose_config_file_path_TEMP)
-    base_test_pose_config_file_paths.append(base_test_pose_config_file_path_TEMP)
+                                             shuffle=shuffle_number,
+                                             trainingsetindex=0)  # base_train_pose_config_file
+    list_base_train_pose_config_file_paths.append(base_train_pose_config_file_path_TEMP)
+    list_base_test_pose_config_file_paths.append(base_test_pose_config_file_path_TEMP)
 
-
-# each model subfolder is named with the format: <modelprefix_pre>_<id>_<str_id>
-modelprefix_pre = "data_augm"
 
 ##################################################################
 ### Define parameters for each data augmentation method
@@ -178,10 +176,8 @@ for ky in baseline.keys() :
 
 #########################################
 ## Loop to train each model
-list_gpus_to_use = list(range(N_GPUS)) #------------
 
-for i, (n_gpu, daug_str) in enumerate(zip(list_gpus_to_use, list_of_data_augm_models_strs)):
-# for i, daug_str in enumerate(list_of_data_augm_models_strs):
+for i, daug_str in enumerate(list_of_data_augm_models_strs):
     ###########################################################
     # Create subdirs for this augmentation method
     model_prefix = '_'.join([modelprefix_pre, str(i), daug_str]) # modelprefix_pre = aug_
@@ -195,24 +191,36 @@ for i, (n_gpu, daug_str) in enumerate(zip(list_gpus_to_use, list_of_data_augm_mo
         print(error)
         print("Skipping this one as it already exists")
         continue
-    # copy tree 'training-datasets' of dlc project under subdir for the current model
+    # copy tree 'training-datasets' of dlc project under subdir for the current model---copies training_dataset subdir
     shutil.copytree(training_datasets_path, aug_training_datasets)
 
     ###########################################################
     # Copy base train pose config file to the directory of this augmentation method
     list_train_pose_config_path_per_shuffle = []
-    for sh in range(NUM_SHUFFLES):
+    list_test_pose_config_path_per_shuffle = []
+    for j, sh in enumerate(list_shuffle_numbers):
         one_train_pose_config_file_path,\
-            _, _ = deeplabcut.return_train_network_path(config_path,
-                                                        shuffle=sh,
-                                                        trainingsetindex=TRAINING_SET_INDEX, # default
-                                                        modelprefix=model_prefix)
+        one_test_pose_config_file_path,\
+        _ = deeplabcut.return_train_network_path(config_path,
+                                                 shuffle=sh,
+                                                 trainingsetindex=TRAINING_SET_INDEX, # default
+                                                 modelprefix=model_prefix)
 
+        # copy test and train config from base project to this subdir
         os.makedirs(str(os.path.dirname(one_train_pose_config_file_path))) # create parentdir 'train'
-        shutil.copyfile(list_base_train_pose_config_path_per_shuffle[sh],
-                        one_train_pose_config_file_path) #copy base train config file
+        os.makedirs(str(os.path.dirname(one_test_pose_config_file_path))) # create parentdir 'test'
+
+        # copy base train config file
+        shutil.copyfile(list_base_train_pose_config_file_paths[j],
+                        one_train_pose_config_file_path) 
+
+        # copy base test config file
+        shutil.copyfile(list_base_test_pose_config_file_paths[j],
+                        one_test_pose_config_file_path) 
+
         # add to list
-        list_train_pose_config_path_per_shuffle.append(one_train_pose_config_file_path)
+        list_train_pose_config_path_per_shuffle.append(one_train_pose_config_file_path) 
+        list_test_pose_config_path_per_shuffle.append(one_test_pose_config_file_path)
 
     #####################################################
     # Create dict with the data augm params for this model
@@ -245,18 +253,18 @@ for i, (n_gpu, daug_str) in enumerate(zip(list_gpus_to_use, list_of_data_augm_mo
     print('-----------------------------------')
     ##################################################
     # Edit config for this augmentation method
-    for sh in range(NUM_SHUFFLES):
-        edit_config(str(list_train_pose_config_path_per_shuffle[sh]), edits_dict)
+    for j, sh in enumerate(list_shuffle_numbers):
+        edit_config(str(list_train_pose_config_path_per_shuffle[j]), edits_dict)
     
     #########################################
-    ## Train model
-#     deeplabcut.train_network(config_path, # config.yaml, common to all models
-#                             shuffle=SHUFFLE_ID,
-#                             trainingsetindex=TRAINING_SET_INDEX,
-#                             max_snapshots_to_keep=MAX_SNAPSHOTS,
-#                             displayiters=DISPLAY_ITERS,
-#                             maxiters=MAX_ITERS,
-#                             saveiters=SAVE_ITERS,
-#                             gputouse=n_gpu,
-#                             allow_growth=True,
-#                             modelprefix=model_prefix)
+    # ## Train model
+    # deeplabcut.train_network(config_path, # config.yaml, common to all models
+    #                         shuffle=SHUFFLE_ID, #-----
+    #                         trainingsetindex=TRAINING_SET_INDEX,
+    #                         max_snapshots_to_keep=MAX_SNAPSHOTS,
+    #                         displayiters=DISPLAY_ITERS,
+    #                         maxiters=MAX_ITERS,
+    #                         saveiters=SAVE_ITERS,
+    #                         gputouse=n_gpu,
+    #                         allow_growth=True,
+    #                         modelprefix=model_prefix) #------
