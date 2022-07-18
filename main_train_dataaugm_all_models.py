@@ -178,7 +178,7 @@ for ky in baseline.keys() :
 
 #########################################
 ## Loop to train each model
-list_gpus_to_use = list(range(N_GPUS))
+list_gpus_to_use = list(range(N_GPUS)) #------------
 
 for i, (n_gpu, daug_str) in enumerate(zip(list_gpus_to_use, list_of_data_augm_models_strs)):
 # for i, daug_str in enumerate(list_of_data_augm_models_strs):
