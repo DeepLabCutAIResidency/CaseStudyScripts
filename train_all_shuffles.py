@@ -1,7 +1,7 @@
 import os
 import deeplabcut
 from deeplabcut.utils.auxiliaryfunctions import read_config
-import re
+import re #lib
 
 def train_all_shuffles(config_path, # config.yaml, common to all models
                         trainingsetindex=0,
