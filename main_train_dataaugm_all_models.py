@@ -156,7 +156,7 @@ for ky in baseline.keys() :
 
 #########################################
 ## Loop to train each model
-list_gpus_to_use = list(range(N_GPUS))
+list_gpus_to_use = list(range(N_GPUS)) #------------
 
 for i,daug_str in enumerate(list_of_data_augm_models_strs):
 
@@ -220,7 +220,7 @@ for i,daug_str in enumerate(list_of_data_augm_models_strs):
     ##################################################
     # Edit config for this augmentation method
     edit_config(str(one_train_pose_config_file_path), edits_dict)
-    edit_config(str(one_train_pose_config_file_path), {'project_path': aug_project_path}) 
+    #edit_config(str(one_train_pose_config_file_path), {'project_path': aug_project_path}) 
     #---should this be aug_project_path? or the parentdir to config.yaml (i.e. project_path)? bc it is copied from parent dir, it is already set to project_path
 
     #########################################
