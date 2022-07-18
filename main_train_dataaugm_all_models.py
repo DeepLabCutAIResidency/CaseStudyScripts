@@ -23,14 +23,14 @@ config_path = '/media/data/stinkbugs-DLC-2022-07-15/config.yaml'
 
 # Other params
 NUM_SHUFFLES=3
-# SHUFFLE_ID=1
+#SHUFFLE_ID=1
 TRAINING_SET_INDEX=0 # default
 MAX_SNAPSHOTS=3
 DISPLAY_ITERS=1 # display loss every N iters; one iter processes one batch
 SAVE_ITERS=1 # save snapshots every n iters
 MAX_ITERS=1
 
-N_GPUS = 4 # to assing models to one gpu everytime?
+# N_GPUS = 4 # to assing models to one gpu everytime?
 
 ##########################################################
 ### Get config as dict and associated paths
@@ -42,7 +42,7 @@ list_base_train_pose_config_path_per_shuffle = []
 for sh in range(NUM_SHUFFLES):
     base_train_pose_config_file_path,\
         _, _ = deeplabcut.return_train_network_path(config_path,
-                                                    shuffle=SHUFFLE_ID,
+                                                    shuffle=sh,
                                                     trainingsetindex=0)  # base_train_pose_config_file
     list_base_train_pose_config_path_per_shuffle.append(base_train_pose_config_file_path)
 
@@ -159,9 +159,8 @@ for ky in baseline.keys() :
 
 #########################################
 ## Loop to train each model
-list_gpus_to_use = list(range(N_GPUS))
 
-for i, (n_gpu, daug_str) in enumerate(zip(list_gpus_to_use, list_of_data_augm_models_strs)):
+for i, daug_str in enumerate(list_of_data_augm_models_strs):
 
     ###########################################################
     # Create subdirs for this augmentation method
