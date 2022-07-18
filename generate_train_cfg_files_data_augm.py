@@ -1,12 +1,7 @@
 """
-This script launches all training jobs for a data augm study
-- We use a data augmentation baseline as reference (10 different methods)
-- We train a network dropping one method everytime
-
-To run in the background: [eventually this in a bash script?]
------------------------------
-nohup python main_dataaugm_ablation.py &
-nohup python main_dataaugm_ablation.py > log_[date].out & --- I havent tried this
+This script generates a set of train config files (pose_config.yaml files) for a data augm study
+- We use a data augmentation baseline as reference that includes 11 different data augmentation methods
+- We train a model for the baseline, and a model for each data augmentation method with the opposite state from the baseline
 
 Contributors: Sofia, Jonas, Sabrina
 """
