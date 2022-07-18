@@ -182,7 +182,6 @@ list_gpus_to_use = list(range(N_GPUS))
 
 for i, (n_gpu, daug_str) in enumerate(zip(list_gpus_to_use, list_of_data_augm_models_strs)):
 # for i, daug_str in enumerate(list_of_data_augm_models_strs):
-
     ###########################################################
     # Create subdirs for this augmentation method
     model_prefix = '_'.join([modelprefix_pre, str(i), daug_str]) # modelprefix_pre = aug_
@@ -201,23 +200,19 @@ for i, (n_gpu, daug_str) in enumerate(zip(list_gpus_to_use, list_of_data_augm_mo
 
     ###########################################################
     # Copy base train pose config file to the directory of this augmentation method
-    one_train_pose_config_file_path,\
-        one_test_pose_config_file_path,\
-        _ = deeplabcut.return_train_network_path(config_path,
-                                                    shuffle=SHUFFLE_ID,
-                                                    trainingsetindex=TRAINING_SET_INDEX, # default
-                                                    modelprefix=model_prefix)
+    list_train_pose_config_path_per_shuffle = []
+    for sh in range(NUM_SHUFFLES):
+        one_train_pose_config_file_path,\
+            _, _ = deeplabcut.return_train_network_path(config_path,
+                                                        shuffle=sh,
+                                                        trainingsetindex=TRAINING_SET_INDEX, # default
+                                                        modelprefix=model_prefix)
 
-    
-
-    os.makedirs(str(os.path.dirname(one_train_pose_config_file_path))) # create parentdir 'train'
-    os.makedirs(str(os.path.dirname(one_test_pose_config_file_path))) # create parentdir 'test'
-
-    shutil.copyfile(base_train_pose_config_file_path,
-                    one_train_pose_config_file_path) #copy base train config file
-    
-    shutil.copyfile(base_train_pose_config_file_path,
-                    one_train_pose_config_file_path) #copy base train config file
+        os.makedirs(str(os.path.dirname(one_train_pose_config_file_path))) # create parentdir 'train'
+        shutil.copyfile(list_base_train_pose_config_path_per_shuffle[sh],
+                        one_train_pose_config_file_path) #copy base train config file
+        # add to list
+        list_train_pose_config_path_per_shuffle.append(one_train_pose_config_file_path)
 
     #####################################################
     # Create dict with the data augm params for this model
@@ -250,19 +245,18 @@ for i, (n_gpu, daug_str) in enumerate(zip(list_gpus_to_use, list_of_data_augm_mo
     print('-----------------------------------')
     ##################################################
     # Edit config for this augmentation method
-    edit_config(str(one_train_pose_config_file_path), edits_dict)
-    # edit_config(str(one_train_pose_config_file_path), {'project_path': aug_project_path})
-    #---should this be aug_project_path? or the parentdir to config.yaml (i.e. project_path)? bc it is copied from parent dir, it is already set to project_path
-
+    for sh in range(NUM_SHUFFLES):
+        edit_config(str(list_train_pose_config_path_per_shuffle[sh]), edits_dict)
+    
     #########################################
     ## Train model
-    # deeplabcut.train_network(config_path, # config.yaml, common to all models
-    #                         shuffle=SHUFFLE_ID,
-    #                         trainingsetindex=TRAINING_SET_INDEX,
-    #                         max_snapshots_to_keep=MAX_SNAPSHOTS,
-    #                         displayiters=DISPLAY_ITERS,
-    #                         maxiters=MAX_ITERS,
-    #                         saveiters=SAVE_ITERS,
-    #                         gputouse=n_gpu,
-    #                         allow_growth=True,
-    #                         modelprefix=model_prefix)
+#     deeplabcut.train_network(config_path, # config.yaml, common to all models
+#                             shuffle=SHUFFLE_ID,
+#                             trainingsetindex=TRAINING_SET_INDEX,
+#                             max_snapshots_to_keep=MAX_SNAPSHOTS,
+#                             displayiters=DISPLAY_ITERS,
+#                             maxiters=MAX_ITERS,
+#                             saveiters=SAVE_ITERS,
+#                             gputouse=n_gpu,
+#                             allow_growth=True,
+#                             modelprefix=model_prefix)
