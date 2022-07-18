@@ -24,12 +24,12 @@ config_path = '/media/data/stinkbugs-DLC-2022-07-15/config.yaml'
 # Other params
 # NUM_SHUFFLES=3
 # SHUFFLE_ID=1
-TRAINING_SET_INDEX=0 # default------
+TRAINING_SET_INDEX=0 # default;
 MAX_SNAPSHOTS=3
 DISPLAY_ITERS=1 # display loss every N iters; one iter processes one batch
 SAVE_ITERS=1 # save snapshots every n iters
 MAX_ITERS=1
-TRAIN_ITERATION=0 # default is 0. can this be extracted?
+TRAIN_ITERATION=1 # iteration in terms of frames extraction; default is 0. can this be extracted?
 
 # N_GPUS = 4 # to assing models to one gpu everytime?
 
