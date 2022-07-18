@@ -15,7 +15,7 @@ import os, shutil
 import deeplabcut
 from deeplabcut.utils.auxiliaryfunctions import read_config, edit_config
 from deeplabcut.generate_training_dataset.trainingsetmanipulation import create_training_dataset
-
+import re
 ##########################################################
 ### Set config path of project with labelled data
 # (we assume create_training_dataset has already been run)
@@ -29,8 +29,11 @@ MAX_SNAPSHOTS=3
 DISPLAY_ITERS=1 # display loss every N iters; one iter processes one batch
 SAVE_ITERS=1 # save snapshots every n iters
 MAX_ITERS=1
+TRAIN_ITERATION=1
 
 N_GPUS = 4 # to assing models to one gpu everytime?
+
+
 
 ##########################################################
 ### Get config as dict and associated paths
@@ -38,10 +41,29 @@ cfg = read_config(config_path)
 project_path = cfg["project_path"] # or: os.path.dirname(config_path) #dlc_models_path = os.path.join(project_path, "dlc-models")
 training_datasets_path = os.path.join(project_path, "training-datasets")
 
-base_train_pose_config_file_path,\
-    _, _ = deeplabcut.return_train_network_path(config_path,
-                                                shuffle=SHUFFLE_ID,
+#Get shuffles
+iteration_folder = os.path.join(training_datasets_path, 'iteration-' + str(TRAIN_ITERATION))
+dataset_top_folder = os.path.join(iteration_folder, os.listdir(iteration_folder)[0])
+files_in_dataset_top_folder = os.listdir(dataset_top_folder)
+shuffle_numbers = []
+for file in files_in_dataset_top_folder:
+    if file.endswith(".mat"):
+        shuffleNum = int(re.findall('[0-9]+',file)[-1])
+        shuffle_numbers.append(shuffleNum)
+shuffle_numbers.sort()
+
+base_train_pose_config_file_paths = []
+base_test_pose_config_file_paths = []
+
+for shuffle_number in shuffle_numbers:
+    base_train_pose_config_file_path_TEMP,\
+    base_test_pose_config_file_path_TEMP,\
+    _ = deeplabcut.return_train_network_path(config_path,
+                                                shuffle=shuffle_number,
                                                 trainingsetindex=0)  # base_train_pose_config_file
+    base_train_pose_config_file_paths.append(base_train_pose_config_file_path_TEMP)
+    base_test_pose_config_file_paths.append(base_test_pose_config_file_path_TEMP)
+
 
 # each model subfolder is named with the format: <modelprefix_pre>_<id>_<str_id>
 modelprefix_pre = "data_augm"
@@ -159,6 +181,7 @@ for ky in baseline.keys() :
 list_gpus_to_use = list(range(N_GPUS))
 
 for i, (n_gpu, daug_str) in enumerate(zip(list_gpus_to_use, list_of_data_augm_models_strs)):
+# for i, daug_str in enumerate(list_of_data_augm_models_strs):
 
     ###########################################################
     # Create subdirs for this augmentation method
@@ -179,12 +202,20 @@ for i, (n_gpu, daug_str) in enumerate(zip(list_gpus_to_use, list_of_data_augm_mo
     ###########################################################
     # Copy base train pose config file to the directory of this augmentation method
     one_train_pose_config_file_path,\
-        _, _ = deeplabcut.return_train_network_path(config_path,
+        one_test_pose_config_file_path,\
+        _ = deeplabcut.return_train_network_path(config_path,
                                                     shuffle=SHUFFLE_ID,
                                                     trainingsetindex=TRAINING_SET_INDEX, # default
                                                     modelprefix=model_prefix)
 
+    
+
     os.makedirs(str(os.path.dirname(one_train_pose_config_file_path))) # create parentdir 'train'
+    os.makedirs(str(os.path.dirname(one_test_pose_config_file_path))) # create parentdir 'test'
+
+    shutil.copyfile(base_train_pose_config_file_path,
+                    one_train_pose_config_file_path) #copy base train config file
+    
     shutil.copyfile(base_train_pose_config_file_path,
                     one_train_pose_config_file_path) #copy base train config file
 
@@ -194,7 +225,7 @@ for i, (n_gpu, daug_str) in enumerate(zip(list_gpus_to_use, list_of_data_augm_mo
     # initialise dict
     edits_dict = dict()
 
-    # add gral params
+    # add grab params
     edits_dict.update(parameters_dict['general'])
 
     for ky in baseline.keys():
@@ -225,13 +256,13 @@ for i, (n_gpu, daug_str) in enumerate(zip(list_gpus_to_use, list_of_data_augm_mo
 
     #########################################
     ## Train model
-    deeplabcut.train_network(config_path, # config.yaml, common to all models
-                            shuffle=SHUFFLE_ID,
-                            trainingsetindex=TRAINING_SET_INDEX,
-                            max_snapshots_to_keep=MAX_SNAPSHOTS,
-                            displayiters=DISPLAY_ITERS,
-                            maxiters=MAX_ITERS,
-                            saveiters=SAVE_ITERS,
-                            gputouse=n_gpu,
-                            allow_growth=True,
-                            modelprefix=model_prefix)
+    # deeplabcut.train_network(config_path, # config.yaml, common to all models
+    #                         shuffle=SHUFFLE_ID,
+    #                         trainingsetindex=TRAINING_SET_INDEX,
+    #                         max_snapshots_to_keep=MAX_SNAPSHOTS,
+    #                         displayiters=DISPLAY_ITERS,
+    #                         maxiters=MAX_ITERS,
+    #                         saveiters=SAVE_ITERS,
+    #                         gputouse=n_gpu,
+    #                         allow_growth=True,
+    #                         modelprefix=model_prefix)
