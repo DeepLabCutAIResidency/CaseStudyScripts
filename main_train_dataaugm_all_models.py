@@ -19,7 +19,7 @@ import re
 ##########################################################
 ### Set config path of project with labelled data
 # (we assume create_training_dataset has already been run)
-config_path = '/Users/user/Desktop/sabris-mouse/sabris-mouse-nirel-2022-07-06/config.yaml' #'/media/data/stinkbugs-DLC-2022-07-15/config.yaml'
+config_path = '/media/data/stinkbugs-DLC-2022-07-15/config.yaml'
 
 # Other params
 # NUM_SHUFFLES=3
