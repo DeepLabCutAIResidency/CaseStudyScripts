@@ -74,7 +74,7 @@ if __name__ == "__main__":
     last_model_index = int(sys.argv[4])
     gpu_to_use = int(sys.argv[5])
 
-    ## Get other params (hardcoded for now)
+    ## Get other params (hardcoded for now)---maybe use argparser?
     TRAINING_SET_INDEX = 0 # default;
     MAX_SNAPSHOTS = 10
     DISPLAY_ITERS = 1000 # display loss every N iters; one iter processes one batch
