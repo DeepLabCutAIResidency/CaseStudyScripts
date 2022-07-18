@@ -38,10 +38,13 @@ cfg = read_config(config_path)
 project_path = cfg["project_path"] # or: os.path.dirname(config_path) #dlc_models_path = os.path.join(project_path, "dlc-models")
 training_datasets_path = os.path.join(project_path, "training-datasets")
 
-base_train_pose_config_file_path,\
-    _, _ = deeplabcut.return_train_network_path(config_path,
-                                                shuffle=SHUFFLE_ID,
-                                                trainingsetindex=0)  # base_train_pose_config_file
+list_base_train_pose_config_path_per_shuffle = []
+for sh in range(NUM_SHUFFLES):
+    base_train_pose_config_file_path,\
+        _, _ = deeplabcut.return_train_network_path(config_path,
+                                                    shuffle=SHUFFLE_ID,
+                                                    trainingsetindex=0)  # base_train_pose_config_file
+    list_base_train_pose_config_path_per_shuffle.append(base_train_pose_config_file_path)
 
 # each model subfolder is named with the format: <modelprefix_pre>_<id>_<str_id>
 modelprefix_pre = "data_augm"
@@ -187,7 +190,7 @@ for i, (n_gpu, daug_str) in enumerate(zip(list_gpus_to_use, list_of_data_augm_mo
                                                         modelprefix=model_prefix)
 
         os.makedirs(str(os.path.dirname(one_train_pose_config_file_path))) # create parentdir 'train'
-        shutil.copyfile(base_train_pose_config_file_path,
+        shutil.copyfile(list_base_train_pose_config_path_per_shuffle[sh],
                         one_train_pose_config_file_path) #copy base train config file
         # add to list
         list_train_pose_config_path_per_shuffle.append(one_train_pose_config_file_path)
