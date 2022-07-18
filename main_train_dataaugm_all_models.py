@@ -180,7 +180,7 @@ for ky in baseline.keys() :
 for i, daug_str in enumerate(list_of_data_augm_models_strs):
     ###########################################################
     # Create subdirs for this augmentation method
-    model_prefix = '_'.join([modelprefix_pre, str(i), daug_str]) # modelprefix_pre = aug_
+    model_prefix = '_'.join([modelprefix_pre, "{0:0=2d}".format(i), daug_str]) # modelprefix_pre = aug_
     aug_project_path = os.path.join(project_path, model_prefix)
     aug_dlc_models = os.path.join(aug_project_path, "dlc-models", )
     aug_training_datasets = os.path.join(aug_project_path, "training-datasets")
