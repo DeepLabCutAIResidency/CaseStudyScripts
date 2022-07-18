@@ -14,19 +14,11 @@ import re
 ##########################################################
 ### Set config path of project with labelled data
 # (we assume create_training_dataset has already been run)
-config_path = '/media/data/stinkbugs-DLC-2022-07-15/config.yaml'
+config_path = '/media/data/stinkbugs-DLC-2022-07-15/config.yaml' # '/Users/user/Desktop/sabris-mouse/sabris-mouse-nirel-2022-07-06/config.yaml'
 
 # Other params
-# NUM_SHUFFLES=3
-# SHUFFLE_ID=1
 TRAINING_SET_INDEX=0 # default;
-MAX_SNAPSHOTS=3
-DISPLAY_ITERS=1 # display loss every N iters; one iter processes one batch
-SAVE_ITERS=1 # save snapshots every n iters
-MAX_ITERS=1
 TRAIN_ITERATION=1 # iteration in terms of frames extraction; default is 0. can this be extracted?
-
-# N_GPUS = 4 # to assing models to one gpu everytime?
 
 # each model subfolder is named with the format: <modelprefix_pre>_<id>_<str_id>
 modelprefix_pre = "data_augm"
