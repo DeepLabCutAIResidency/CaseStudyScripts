@@ -74,6 +74,8 @@ if __name__ == "__main__":
     last_model_index = int(sys.argv[4])
     gpu_to_use = int(sys.argv[5])
 
+    # Select whether to restart training from a previous snapshot
+
     ## Get other params (hardcoded for now)
     TRAINING_SET_INDEX = 0 # default;
     MAX_SNAPSHOTS = 10
@@ -90,6 +92,9 @@ if __name__ == "__main__":
         if directory.startswith(subdir_prefix_str):
             list_models_subdird.append(directory)
     list_models_subdird.sort() # sorts in place
+
+    ## Set before training (allow growth bug)
+    os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'true'
 
     ## Train models in required indices
     for modelprefix in list_models_subdird[first_model_index:last_model_index+1]:
