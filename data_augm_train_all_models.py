@@ -90,16 +90,16 @@ def train_all_shuffles(config_path, # config.yaml, common to all models
                 pass
 
         ## Train this shuffle
-        # deeplabcut.train_network(config_path, # config.yaml, common to all models
-        #                          shuffle=sh,
-        #                          trainingsetindex=trainingsetindex,
-        #                          max_snapshots_to_keep=max_snapshots_to_keep,
-        #                          displayiters=displayiters,
-        #                          maxiters=maxiters,
-        #                          saveiters=saveiters,
-        #                          gputouse=gputouse,
-        #                          allow_growth=True,
-        #                          modelprefix=modelprefix)
+        deeplabcut.train_network(config_path, # config.yaml, common to all models
+                                 shuffle=sh,
+                                 trainingsetindex=trainingsetindex,
+                                 max_snapshots_to_keep=max_snapshots_to_keep,
+                                 displayiters=displayiters,
+                                 maxiters=maxiters,
+                                 saveiters=saveiters,
+                                 gputouse=gputouse,
+                                 allow_growth=True,
+                                 modelprefix=modelprefix)
 
 
 #############################################
