@@ -1,14 +1,10 @@
 import os
 import deeplabcut
 from deeplabcut.utils.auxiliaryfunctions import read_config
-import re #lib
+import re
 
-def train_all_shuffles(config_path, # config.yaml, common to all models
+def evaluate_all_shuffles(config_path, # config.yaml, common to all models
                         trainingsetindex=0,
-                        max_snapshots_to_keep=10,
-                        displayiters=1000,
-                        maxiters=500000,
-                        saveiters=100000,
                         gputouse=0,
                         modelprefix="",
                         train_iteration=0):
@@ -31,13 +27,9 @@ def train_all_shuffles(config_path, # config.yaml, common to all models
     shuffle_numbers.sort()
     
     for sh in shuffle_numbers:
-        deeplabcut.train_network(config_path, # config.yaml, common to all models
-                                shuffle=sh,
+        deeplabcut.evaluate_network(config_path, # config.yaml, common to all models
+                                Shuffles=[sh],
                                 trainingsetindex=trainingsetindex,
-                                max_snapshots_to_keep=max_snapshots_to_keep,
-                                displayiters=displayiters,
-                                maxiters=maxiters,
-                                saveiters=saveiters,
                                 gputouse=gputouse,
-                                allow_growth=True,
-                                modelprefix=modelprefix)
+                                modelprefix=modelprefix,
+                               )
