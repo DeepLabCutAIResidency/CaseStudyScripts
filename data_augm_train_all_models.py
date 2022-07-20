@@ -18,7 +18,6 @@ import sys
 import deeplabcut
 from deeplabcut.utils.auxiliaryfunctions import read_config, edit_config
 import re 
-import pdb #-----
 import argparse
 
 ###########################################
@@ -53,7 +52,6 @@ def train_all_shuffles(config_path, # config.yaml, common to all models
     ### Train every shuffle for this model
     for sh in shuffle_numbers:
         ## If initial weights different from default are provided: edit pose_cfg for this shuffle
-        pdb.set_trace()
         if not init_weights: # if init_weights not empty
             # get path to train config for this shuffle
             one_train_pose_config_file_path,\
@@ -64,6 +62,12 @@ def train_all_shuffles(config_path, # config.yaml, common to all models
             # edit config
             edit_config(str(one_train_pose_config_file_path), 
                         {'init_weights':init_weights})
+
+        ## Change optimizer, batch size and learning rate for all cases
+        edit_config(str(one_train_pose_config_file_path), 
+                        {'optimizer': 'adam',
+                         'batch_size': 16,
+                         'multi_step': [[1e-4, 7500], [5 * 1e-5, 12000], [1e-5, 200000]]}) # learning rate schedule for adam
 
         ## Train this shuffle
         deeplabcut.train_network(config_path, # config.yaml, common to all models
@@ -106,7 +110,7 @@ if __name__ == "__main__":
                         default='',
                         help="path to snapshot with weights to initialise the network with [optional]")
     args = parser.parse_args()
-    pdb.set_trace()
+ 
 
     ### Extract input params: required
     config_path = args.config_path #str(sys.argv[1]) #"/media/data/stinkbugs-DLC-2022-07-15-SMALL/config.yaml"
@@ -117,8 +121,6 @@ if __name__ == "__main__":
     # this will be an empty string if no string passed
     initial_weights_snapshot_path = args.snapshot_initial_weights
 
-    pdb.set_trace()
-
     ## Get other params (hardcoded for now)---have as optional inputs?
     TRAINING_SET_INDEX = 0 # default;
     MAX_SNAPSHOTS = 10
@@ -127,7 +129,6 @@ if __name__ == "__main__":
     SAVE_ITERS = 50000 # save snapshots every n iters
     TRAIN_ITERATION = 1 # iteration in terms of frames extraction; default is 0, but in stinkbug is 1. can this be extracted?
 
-    pdb.set_trace()
 
     ## Compute list of subdirectories that start with 'subdir_prefix_str'
     list_all_dirs_in_project = os.listdir(str(os.path.dirname(config_path)))
@@ -154,7 +155,6 @@ if __name__ == "__main__":
     for modelprefix in list_models_subdird[first_model_index:last_model_index+1]:
 
         # train all shuffles for each model
-        pdb.set_trace()
         train_all_shuffles(config_path, # config.yaml, common to all models
                             trainingsetindex=TRAINING_SET_INDEX,
                             max_snapshots_to_keep=MAX_SNAPSHOTS,
