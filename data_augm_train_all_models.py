@@ -28,6 +28,7 @@ from deeplabcut.utils.auxiliaryfunctions import read_config, edit_config
 import re 
 import argparse
 import yaml
+import pdb
 
 ###########################################
 def train_all_shuffles(config_path, # config.yaml, common to all models
@@ -91,6 +92,7 @@ def train_all_shuffles(config_path, # config.yaml, common to all models
 
         ## Change optimizer, batch size and learning rate if a dict is passed
         if bool(dict_optimizer):
+            pdb.set_trace()
             edit_config(str(one_train_pose_config_file_path), 
                             {'optimizer': dict_optimizer['optimizer'], #'adam',
                             'batch_size': dict_optimizer['batch_size'], #16,
@@ -199,6 +201,7 @@ if __name__ == "__main__":
 
     ### Get dict with optimizer parameters. If none provided, Adam is used [optional]
     # if yaml file passed, read dict
+    pdb.set_trace()
     if bool(args.optimizer_yaml_file): 
         with open(args.optimizer_yaml_file,'r') as yaml_file:
             dict_optimizer = yaml.safe_load(yaml_file)
@@ -246,5 +249,5 @@ if __name__ == "__main__":
                             gputouse=gpu_to_use,
                             modelprefix=modelprefix,
                             train_iteration=TRAIN_ITERATION,
-                            dict_init_weights_per_modelprefix_and_shuffle=dict_ini_weights_per_model_and_shuffle
+                            dict_init_weights_per_modelprefix_and_shuffle=dict_ini_weights_per_model_and_shuffle,
                             dict_optimizer=dict_optimizer)
