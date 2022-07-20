@@ -39,7 +39,8 @@ def train_all_shuffles(config_path, # config.yaml, common to all models
                         gputouse=0,
                         modelprefix="",
                         train_iteration=0,
-                        dict_init_weights_per_modelprefix_and_shuffle={}):
+                        dict_init_weights_per_modelprefix_and_shuffle={},
+                        dict_optimizer={}):
     """
     Train all shuffles for a given model
 
@@ -88,11 +89,12 @@ def train_all_shuffles(config_path, # config.yaml, common to all models
             except KeyError:
                 pass
 
-        ## Change optimizer, batch size and learning rate for all cases
-        edit_config(str(one_train_pose_config_file_path), 
-                        {'optimizer': 'adam',
-                         'batch_size': 16,
-                         'multi_step': [[1e-4, 7500], [5 * 1e-5, 12000], [1e-5, 200000]]}) # learning rate schedule for adam
+        ## Change optimizer, batch size and learning rate if a dict is passed
+        if bool(dict_optimizer):
+            edit_config(str(one_train_pose_config_file_path), 
+                            {'optimizer': dict_optimizer['optimizer'], #'adam',
+                            'batch_size': dict_optimizer['batch_size'], #16,
+                            'multi_step': dict_optimizer['multi_step']}) # learning rate schedule for adam: [[1e-4, 7500], [5 * 1e-5, 12000], [1e-5, 200000]]
 
         ## Train this shuffle
         deeplabcut.train_network(config_path, # config.yaml, common to all models
@@ -137,6 +139,14 @@ if __name__ == "__main__":
                         type=str,
                         default='',
                         help="path to file that shows for each model and shuffle the paths to the snapshots to show as initial weights [optional]")
+    # dict_optimizer
+    parser.add_argument("-o", "--optimizer_yaml_file", 
+                        type=str,
+                        default='',
+                        help="path to file that sets the optimizer parameters. If none is passed, Adam parameters are used \
+                              (optimizer=Adam, batch_size=16, multi_step= [[1e-4, 7500], [5 * 1e-5, 12000], [1e-5, 200000]])\
+                              [optional]")
+
     # Other  training params [otpional]
     parser.add_argument("--training_set_index", 
                         type=int,
@@ -187,6 +197,17 @@ if __name__ == "__main__":
     else:
         dict_ini_weights_per_model_and_shuffle = {} # if no yaml file passed, initialise as an empty dict
 
+    ### Get dict with optimizer parameters. If none provided, Adam is used [optional]
+    # if yaml file passed, read dict
+    if bool(args.optimizer_yaml_file): 
+        with open(args.optimizer_yaml_file,'r') as yaml_file:
+            dict_optimizer = yaml.safe_load(yaml_file)
+    else:
+        dict_optimizer = {'optimizer':'adam',
+                          'batch_size': 16,
+                          'multi_step': [[1e-4, 7500], [5 * 1e-5, 12000], [1e-5, 200000]]} # if no yaml file passed, initialise as an empty dict
+
+
     #######################################################################################
     ## Compute list of subdirectories that start with 'subdir_prefix_str'
     list_all_dirs_in_project = os.listdir(str(os.path.dirname(config_path)))
@@ -225,4 +246,5 @@ if __name__ == "__main__":
                             gputouse=gpu_to_use,
                             modelprefix=modelprefix,
                             train_iteration=TRAIN_ITERATION,
-                            dict_init_weights_per_modelprefix_and_shuffle=dict_ini_weights_per_model_and_shuffle)
+                            dict_init_weights_per_modelprefix_and_shuffle=dict_ini_weights_per_model_and_shuffle
+                            dict_optimizer=dict_optimizer)
