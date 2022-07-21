@@ -193,3 +193,2257 @@ iteration: 27000 loss: 0.0048 lr: 0.02
 iteration: 28000 loss: 0.0047 lr: 0.02
 iteration: 29000 loss: 0.0048 lr: 0.02
 iteration: 30000 loss: 0.0045 lr: 0.02
+iteration: 31000 loss: 0.0045 lr: 0.02
+iteration: 32000 loss: 0.0043 lr: 0.02
+iteration: 33000 loss: 0.0045 lr: 0.02
+iteration: 34000 loss: 0.0048 lr: 0.02
+iteration: 35000 loss: 0.0044 lr: 0.02
+iteration: 36000 loss: 0.0042 lr: 0.02
+iteration: 37000 loss: 0.0040 lr: 0.02
+iteration: 38000 loss: 0.0040 lr: 0.02
+iteration: 39000 loss: 0.0039 lr: 0.02
+iteration: 40000 loss: 0.0039 lr: 0.02
+iteration: 41000 loss: 0.0039 lr: 0.02
+iteration: 42000 loss: 0.0038 lr: 0.02
+iteration: 43000 loss: 0.0037 lr: 0.02
+iteration: 44000 loss: 0.0037 lr: 0.02
+iteration: 45000 loss: 0.0037 lr: 0.02
+iteration: 46000 loss: 0.0036 lr: 0.02
+iteration: 47000 loss: 0.0036 lr: 0.02
+iteration: 48000 loss: 0.0035 lr: 0.02
+iteration: 49000 loss: 0.0035 lr: 0.02
+iteration: 50000 loss: 0.0035 lr: 0.02
+iteration: 51000 loss: 0.0034 lr: 0.02
+iteration: 52000 loss: 0.0034 lr: 0.02
+iteration: 53000 loss: 0.0034 lr: 0.02
+iteration: 54000 loss: 0.0034 lr: 0.02
+iteration: 55000 loss: 0.0033 lr: 0.02
+iteration: 56000 loss: 0.0033 lr: 0.02
+iteration: 57000 loss: 0.0032 lr: 0.02
+iteration: 58000 loss: 0.0032 lr: 0.02
+iteration: 59000 loss: 0.0033 lr: 0.02
+iteration: 60000 loss: 0.0032 lr: 0.02
+iteration: 61000 loss: 0.0031 lr: 0.02
+iteration: 62000 loss: 0.0030 lr: 0.02
+iteration: 63000 loss: 0.0031 lr: 0.02
+iteration: 64000 loss: 0.0031 lr: 0.02
+iteration: 65000 loss: 0.0031 lr: 0.02
+iteration: 66000 loss: 0.0031 lr: 0.02
+iteration: 67000 loss: 0.0031 lr: 0.02
+iteration: 68000 loss: 0.0033 lr: 0.02
+iteration: 69000 loss: 0.0030 lr: 0.02
+iteration: 70000 loss: 0.0031 lr: 0.02
+iteration: 71000 loss: 0.0029 lr: 0.02
+iteration: 72000 loss: 0.0029 lr: 0.02
+iteration: 73000 loss: 0.0029 lr: 0.02
+iteration: 74000 loss: 0.0031 lr: 0.02
+iteration: 75000 loss: 0.0031 lr: 0.02
+iteration: 76000 loss: 0.0033 lr: 0.02
+iteration: 77000 loss: 0.0030 lr: 0.02
+iteration: 78000 loss: 0.0030 lr: 0.02
+iteration: 79000 loss: 0.0029 lr: 0.02
+iteration: 80000 loss: 0.0028 lr: 0.02
+iteration: 81000 loss: 0.0029 lr: 0.02
+iteration: 82000 loss: 0.0027 lr: 0.02
+iteration: 83000 loss: 0.0028 lr: 0.02
+iteration: 84000 loss: 0.0028 lr: 0.02
+iteration: 85000 loss: 0.0029 lr: 0.02
+iteration: 86000 loss: 0.0028 lr: 0.02
+iteration: 87000 loss: 0.0027 lr: 0.02
+iteration: 88000 loss: 0.0027 lr: 0.02
+iteration: 89000 loss: 0.0027 lr: 0.02
+iteration: 90000 loss: 0.0027 lr: 0.02
+iteration: 91000 loss: 0.0026 lr: 0.02
+iteration: 92000 loss: 0.0027 lr: 0.02
+iteration: 93000 loss: 0.0026 lr: 0.02
+iteration: 94000 loss: 0.0026 lr: 0.02
+iteration: 95000 loss: 0.0026 lr: 0.02
+iteration: 96000 loss: 0.0027 lr: 0.02
+iteration: 97000 loss: 0.0026 lr: 0.02
+iteration: 98000 loss: 0.0026 lr: 0.02
+iteration: 99000 loss: 0.0026 lr: 0.02
+iteration: 100000 loss: 0.0026 lr: 0.02
+iteration: 101000 loss: 0.0026 lr: 0.02
+iteration: 102000 loss: 0.0026 lr: 0.02
+iteration: 103000 loss: 0.0025 lr: 0.02
+iteration: 104000 loss: 0.0025 lr: 0.02
+iteration: 105000 loss: 0.0025 lr: 0.02
+iteration: 106000 loss: 0.0025 lr: 0.02
+iteration: 107000 loss: 0.0025 lr: 0.02
+iteration: 108000 loss: 0.0025 lr: 0.02
+iteration: 109000 loss: 0.0025 lr: 0.02
+iteration: 110000 loss: 0.0025 lr: 0.02
+iteration: 111000 loss: 0.0024 lr: 0.02
+iteration: 112000 loss: 0.0025 lr: 0.02
+iteration: 113000 loss: 0.0024 lr: 0.02
+iteration: 114000 loss: 0.0024 lr: 0.02
+iteration: 115000 loss: 0.0024 lr: 0.02
+iteration: 116000 loss: 0.0024 lr: 0.02
+iteration: 117000 loss: 0.0024 lr: 0.02
+iteration: 118000 loss: 0.0024 lr: 0.02
+iteration: 119000 loss: 0.0024 lr: 0.02
+iteration: 120000 loss: 0.0024 lr: 0.02
+iteration: 121000 loss: 0.0024 lr: 0.02
+iteration: 122000 loss: 0.0024 lr: 0.02
+iteration: 123000 loss: 0.0024 lr: 0.02
+iteration: 124000 loss: 0.0024 lr: 0.02
+iteration: 125000 loss: 0.0024 lr: 0.02
+iteration: 126000 loss: 0.0023 lr: 0.02
+iteration: 127000 loss: 0.0024 lr: 0.02
+iteration: 128000 loss: 0.0024 lr: 0.02
+iteration: 129000 loss: 0.0023 lr: 0.02
+iteration: 130000 loss: 0.0023 lr: 0.02
+iteration: 131000 loss: 0.0023 lr: 0.02
+iteration: 132000 loss: 0.0023 lr: 0.02
+iteration: 133000 loss: 0.0024 lr: 0.02
+iteration: 134000 loss: 0.0023 lr: 0.02
+iteration: 135000 loss: 0.0023 lr: 0.02
+iteration: 136000 loss: 0.0024 lr: 0.02
+iteration: 137000 loss: 0.0035 lr: 0.02
+iteration: 138000 loss: 0.0039 lr: 0.02
+iteration: 139000 loss: 0.0027 lr: 0.02
+iteration: 140000 loss: 0.0026 lr: 0.02
+iteration: 141000 loss: 0.0025 lr: 0.02
+iteration: 142000 loss: 0.0024 lr: 0.02
+iteration: 143000 loss: 0.0023 lr: 0.02
+iteration: 144000 loss: 0.0024 lr: 0.02
+iteration: 145000 loss: 0.0024 lr: 0.02
+iteration: 146000 loss: 0.0023 lr: 0.02
+iteration: 147000 loss: 0.0023 lr: 0.02
+iteration: 148000 loss: 0.0023 lr: 0.02
+iteration: 149000 loss: 0.0023 lr: 0.02
+iteration: 150000 loss: 0.0023 lr: 0.02
+iteration: 151000 loss: 0.0023 lr: 0.02
+iteration: 152000 loss: 0.0022 lr: 0.02
+iteration: 153000 loss: 0.0022 lr: 0.02
+iteration: 154000 loss: 0.0022 lr: 0.02
+iteration: 155000 loss: 0.0023 lr: 0.02
+iteration: 156000 loss: 0.0022 lr: 0.02
+iteration: 157000 loss: 0.0025 lr: 0.02
+iteration: 158000 loss: 0.0022 lr: 0.02
+iteration: 159000 loss: 0.0022 lr: 0.02
+iteration: 160000 loss: 0.0022 lr: 0.02
+iteration: 161000 loss: 0.0023 lr: 0.02
+iteration: 162000 loss: 0.0023 lr: 0.02
+iteration: 163000 loss: 0.0024 lr: 0.02
+iteration: 164000 loss: 0.0023 lr: 0.02
+iteration: 165000 loss: 0.0022 lr: 0.02
+iteration: 166000 loss: 0.0022 lr: 0.02
+iteration: 167000 loss: 0.0022 lr: 0.02
+iteration: 168000 loss: 0.0022 lr: 0.02
+iteration: 169000 loss: 0.0022 lr: 0.02
+iteration: 170000 loss: 0.0022 lr: 0.02
+iteration: 171000 loss: 0.0022 lr: 0.02
+iteration: 172000 loss: 0.0022 lr: 0.02
+iteration: 173000 loss: 0.0021 lr: 0.02
+iteration: 174000 loss: 0.0022 lr: 0.02
+iteration: 175000 loss: 0.0022 lr: 0.02
+iteration: 176000 loss: 0.0022 lr: 0.02
+iteration: 177000 loss: 0.0022 lr: 0.02
+iteration: 178000 loss: 0.0022 lr: 0.02
+iteration: 179000 loss: 0.0021 lr: 0.02
+iteration: 180000 loss: 0.0021 lr: 0.02
+iteration: 181000 loss: 0.0022 lr: 0.02
+iteration: 182000 loss: 0.0021 lr: 0.02
+iteration: 183000 loss: 0.0021 lr: 0.02
+iteration: 184000 loss: 0.0021 lr: 0.02
+iteration: 185000 loss: 0.0021 lr: 0.02
+iteration: 186000 loss: 0.0021 lr: 0.02
+iteration: 187000 loss: 0.0021 lr: 0.02
+iteration: 188000 loss: 0.0022 lr: 0.02
+iteration: 189000 loss: 0.0021 lr: 0.02
+iteration: 190000 loss: 0.0021 lr: 0.02
+iteration: 191000 loss: 0.0021 lr: 0.02
+iteration: 192000 loss: 0.0021 lr: 0.02
+iteration: 193000 loss: 0.0022 lr: 0.02
+iteration: 194000 loss: 0.0021 lr: 0.02
+iteration: 195000 loss: 0.0020 lr: 0.02
+iteration: 196000 loss: 0.0021 lr: 0.02
+iteration: 197000 loss: 0.0021 lr: 0.02
+iteration: 198000 loss: 0.0021 lr: 0.02
+iteration: 199000 loss: 0.0021 lr: 0.02
+iteration: 200000 loss: 0.0021 lr: 0.02
+iteration: 201000 loss: 0.0025 lr: 0.02
+iteration: 202000 loss: 0.0023 lr: 0.02
+iteration: 203000 loss: 0.0021 lr: 0.02
+iteration: 204000 loss: 0.0021 lr: 0.02
+iteration: 205000 loss: 0.0020 lr: 0.02
+iteration: 206000 loss: 0.0020 lr: 0.02
+iteration: 207000 loss: 0.0020 lr: 0.02
+iteration: 208000 loss: 0.0020 lr: 0.02
+iteration: 209000 loss: 0.0020 lr: 0.02
+iteration: 210000 loss: 0.0021 lr: 0.02
+iteration: 211000 loss: 0.0020 lr: 0.02
+iteration: 212000 loss: 0.0020 lr: 0.02
+iteration: 213000 loss: 0.0020 lr: 0.02
+iteration: 214000 loss: 0.0020 lr: 0.02
+iteration: 215000 loss: 0.0020 lr: 0.02
+iteration: 216000 loss: 0.0020 lr: 0.02
+iteration: 217000 loss: 0.0020 lr: 0.02
+iteration: 218000 loss: 0.0021 lr: 0.02
+iteration: 219000 loss: 0.0020 lr: 0.02
+iteration: 220000 loss: 0.0020 lr: 0.02
+iteration: 221000 loss: 0.0020 lr: 0.02
+iteration: 222000 loss: 0.0020 lr: 0.02
+iteration: 223000 loss: 0.0020 lr: 0.02
+iteration: 224000 loss: 0.0020 lr: 0.02
+iteration: 225000 loss: 0.0020 lr: 0.02
+iteration: 226000 loss: 0.0020 lr: 0.02
+iteration: 227000 loss: 0.0022 lr: 0.02
+iteration: 228000 loss: 0.0020 lr: 0.02
+iteration: 229000 loss: 0.0024 lr: 0.02
+iteration: 230000 loss: 0.0021 lr: 0.02
+iteration: 231000 loss: 0.0020 lr: 0.02
+iteration: 232000 loss: 0.0019 lr: 0.02
+iteration: 233000 loss: 0.0020 lr: 0.02
+iteration: 234000 loss: 0.0020 lr: 0.02
+iteration: 235000 loss: 0.0020 lr: 0.02
+iteration: 236000 loss: 0.0019 lr: 0.02
+iteration: 237000 loss: 0.0020 lr: 0.02
+iteration: 238000 loss: 0.0020 lr: 0.02
+iteration: 239000 loss: 0.0020 lr: 0.02
+iteration: 240000 loss: 0.0019 lr: 0.02
+iteration: 241000 loss: 0.0020 lr: 0.02
+iteration: 242000 loss: 0.0020 lr: 0.02
+iteration: 243000 loss: 0.0020 lr: 0.02
+iteration: 244000 loss: 0.0019 lr: 0.02
+iteration: 245000 loss: 0.0020 lr: 0.02
+iteration: 246000 loss: 0.0019 lr: 0.02
+iteration: 247000 loss: 0.0019 lr: 0.02
+iteration: 248000 loss: 0.0019 lr: 0.02
+iteration: 249000 loss: 0.0019 lr: 0.02
+iteration: 250000 loss: 0.0019 lr: 0.02
+iteration: 251000 loss: 0.0020 lr: 0.02
+iteration: 252000 loss: 0.0019 lr: 0.02
+iteration: 253000 loss: 0.0019 lr: 0.02
+iteration: 254000 loss: 0.0019 lr: 0.02
+iteration: 255000 loss: 0.0019 lr: 0.02
+iteration: 256000 loss: 0.0019 lr: 0.02
+iteration: 257000 loss: 0.0019 lr: 0.02
+iteration: 258000 loss: 0.0019 lr: 0.02
+iteration: 259000 loss: 0.0019 lr: 0.02
+iteration: 260000 loss: 0.0019 lr: 0.02
+iteration: 261000 loss: 0.0020 lr: 0.02
+iteration: 262000 loss: 0.0019 lr: 0.02
+iteration: 263000 loss: 0.0019 lr: 0.02
+iteration: 264000 loss: 0.0019 lr: 0.02
+iteration: 265000 loss: 0.0020 lr: 0.02
+iteration: 266000 loss: 0.0019 lr: 0.02
+iteration: 267000 loss: 0.0019 lr: 0.02
+iteration: 268000 loss: 0.0019 lr: 0.02
+iteration: 269000 loss: 0.0018 lr: 0.02
+iteration: 270000 loss: 0.0018 lr: 0.02
+iteration: 271000 loss: 0.0018 lr: 0.02
+iteration: 272000 loss: 0.0019 lr: 0.02
+iteration: 273000 loss: 0.0020 lr: 0.02
+iteration: 274000 loss: 0.0019 lr: 0.02
+iteration: 275000 loss: 0.0019 lr: 0.02
+iteration: 276000 loss: 0.0019 lr: 0.02
+iteration: 277000 loss: 0.0019 lr: 0.02
+iteration: 278000 loss: 0.0021 lr: 0.02
+iteration: 279000 loss: 0.0019 lr: 0.02
+iteration: 280000 loss: 0.0019 lr: 0.02
+iteration: 281000 loss: 0.0019 lr: 0.02
+iteration: 282000 loss: 0.0019 lr: 0.02
+iteration: 283000 loss: 0.0018 lr: 0.02
+iteration: 284000 loss: 0.0019 lr: 0.02
+iteration: 285000 loss: 0.0018 lr: 0.02
+iteration: 286000 loss: 0.0018 lr: 0.02
+iteration: 287000 loss: 0.0018 lr: 0.02
+iteration: 288000 loss: 0.0019 lr: 0.02
+iteration: 289000 loss: 0.0018 lr: 0.02
+iteration: 290000 loss: 0.0019 lr: 0.02
+iteration: 291000 loss: 0.0018 lr: 0.02
+iteration: 292000 loss: 0.0018 lr: 0.02
+iteration: 293000 loss: 0.0018 lr: 0.02
+iteration: 294000 loss: 0.0019 lr: 0.02
+iteration: 295000 loss: 0.0018 lr: 0.02
+iteration: 296000 loss: 0.0018 lr: 0.02
+iteration: 297000 loss: 0.0018 lr: 0.02
+iteration: 298000 loss: 0.0018 lr: 0.02
+iteration: 299000 loss: 0.0018 lr: 0.02
+iteration: 300000 loss: 0.0018 lr: 0.02
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/deeplabcut/pose_estimation_tensorflow/core/train.py", line 83, in load_and_enqueue
+    sess.run(enqueue_op, feed_dict=food)
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/tensorflow/python/client/session.py", line 967, in run
+    result = self._run(None, fetches, feed_dict, options_ptr,
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/tensorflow/python/client/session.py", line 1115, in _run
+    raise RuntimeError('Attempted to use a closed Session.')
+RuntimeError: Attempted to use a closed Session.
+Config:
+{'all_joints': [[0],
+                [1],
+                [2],
+                [3],
+                [4],
+                [5],
+                [6],
+                [7],
+                [8],
+                [9],
+                [10],
+                [11],
+                [12],
+                [13],
+                [14],
+                [15],
+                [16],
+                [17],
+                [18],
+                [19],
+                [20],
+                [21],
+                [22],
+                [23],
+                [24],
+                [25],
+                [26],
+                [27],
+                [28],
+                [29],
+                [30],
+                [31],
+                [32],
+                [33],
+                [34],
+                [35],
+                [36],
+                [37],
+                [38],
+                [39],
+                [40]],
+ 'all_joints_names': ['L1hip',
+                      'L1knee',
+                      'L1ankle',
+                      'L1toe',
+                      'L2hip',
+                      'L2knee',
+                      'L2ankle',
+                      'L2toe',
+                      'L3hip',
+                      'L3knee',
+                      'L3ankle',
+                      'L3toe',
+                      'R1hip',
+                      'R1knee',
+                      'R1ankle',
+                      'R1toe',
+                      'R2hip',
+                      'R2knee',
+                      'R2ankle',
+                      'R2toe',
+                      'R3hip',
+                      'R3knee',
+                      'R3ankle',
+                      'R3toe',
+                      'Leye',
+                      'Reye',
+                      'nose',
+                      'Lantenna1',
+                      'Lantenna2',
+                      'Lantenna3',
+                      'Lantenna4',
+                      'Rantenna1',
+                      'Rantenna2',
+                      'Rantenna3',
+                      'Rantenna4',
+                      'Lbody',
+                      'Rbody',
+                      'rear',
+                      'centerbody',
+                      'Lshoulder',
+                      'Rshoulder'],
+ 'alpha_r': 0.02,
+ 'apply_prob': 0.5,
+ 'batch_size': 1,
+ 'contrast': {'clahe': True,
+              'claheratio': 0.1,
+              'histeq': True,
+              'histeqratio': 0.1},
+ 'convolution': {'edge': False, 'emboss': False, 'sharpen': False},
+ 'covering': True,
+ 'crop_by': 0.15,
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets/iteration-1/UnaugmentedDataSet_stinkbugsJul15/stinkbugs_DLC80shuffle1.mat',
+ 'dataset_type': 'imgaug',
+ 'decay_steps': 30000,
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'elastic_transform': True,
+ 'fg_fraction': 0.25,
+ 'gaussian_noise': False,
+ 'global_scale': 0.8,
+ 'grayscale': False,
+ 'init_weights': '/media/data/model-weights/resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'lr_init': 0.0005,
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets/iteration-1/UnaugmentedDataSet_stinkbugsJul15/Documentation_data-stinkbugs_80shuffle1.pickle',
+ 'min_input_size': 64,
+ 'mirror': False,
+ 'motion_blur': True,
+ 'motion_blur_params': {'angle': [-90, 90], 'k': 7},
+ 'multi_stage': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 41,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': False,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'pos_dist_thresh': 17,
+ 'pre_resize': [],
+ 'project_path': '/media/data/stinkbugs-DLC-2022-07-15',
+ 'regularize': False,
+ 'rotation': 25,
+ 'rotratio': 0.4,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': '/media/data/stinkbugs-DLC-2022-07-15/data_augm_00_baseline/dlc-models/iteration-1/stinkbugsJul15-trainset80shuffle1/train/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2022-07-19 01:23:46.972987: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1532] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 22344 MB memory:  -> device: 0, name: NVIDIA RTX A5000, pci bus id: 0000:19:00.0, compute capability: 8.6
+iteration: 1000 loss: 0.0276 lr: 0.005
+iteration: 2000 loss: 0.0196 lr: 0.005
+iteration: 3000 loss: 0.0179 lr: 0.005
+iteration: 4000 loss: 0.0170 lr: 0.005
+iteration: 5000 loss: 0.0155 lr: 0.005
+iteration: 6000 loss: 0.0145 lr: 0.005
+iteration: 7000 loss: 0.0130 lr: 0.005
+iteration: 8000 loss: 0.0124 lr: 0.005
+iteration: 9000 loss: 0.0118 lr: 0.005
+iteration: 10000 loss: 0.0115 lr: 0.005
+iteration: 11000 loss: 0.0114 lr: 0.02
+iteration: 12000 loss: 0.0129 lr: 0.02
+iteration: 13000 loss: 0.0103 lr: 0.02
+iteration: 14000 loss: 0.0088 lr: 0.02
+iteration: 15000 loss: 0.0082 lr: 0.02
+iteration: 16000 loss: 0.0076 lr: 0.02
+iteration: 17000 loss: 0.0075 lr: 0.02
+iteration: 18000 loss: 0.0070 lr: 0.02
+iteration: 19000 loss: 0.0066 lr: 0.02
+iteration: 20000 loss: 0.0067 lr: 0.02
+iteration: 21000 loss: 0.0063 lr: 0.02
+iteration: 22000 loss: 0.0060 lr: 0.02
+iteration: 23000 loss: 0.0059 lr: 0.02
+iteration: 24000 loss: 0.0056 lr: 0.02
+iteration: 25000 loss: 0.0056 lr: 0.02
+iteration: 26000 loss: 0.0053 lr: 0.02
+iteration: 27000 loss: 0.0050 lr: 0.02
+iteration: 28000 loss: 0.0055 lr: 0.02
+iteration: 29000 loss: 0.0052 lr: 0.02
+iteration: 30000 loss: 0.0048 lr: 0.02
+iteration: 31000 loss: 0.0049 lr: 0.02
+iteration: 32000 loss: 0.0049 lr: 0.02
+iteration: 33000 loss: 0.0046 lr: 0.02
+iteration: 34000 loss: 0.0046 lr: 0.02
+iteration: 35000 loss: 0.0044 lr: 0.02
+iteration: 36000 loss: 0.0045 lr: 0.02
+iteration: 37000 loss: 0.0043 lr: 0.02
+iteration: 38000 loss: 0.0042 lr: 0.02
+iteration: 39000 loss: 0.0042 lr: 0.02
+iteration: 40000 loss: 0.0040 lr: 0.02
+iteration: 41000 loss: 0.0040 lr: 0.02
+iteration: 42000 loss: 0.0043 lr: 0.02
+iteration: 43000 loss: 0.0040 lr: 0.02
+iteration: 44000 loss: 0.0039 lr: 0.02
+iteration: 45000 loss: 0.0039 lr: 0.02
+iteration: 46000 loss: 0.0038 lr: 0.02
+iteration: 47000 loss: 0.0041 lr: 0.02
+iteration: 48000 loss: 0.0038 lr: 0.02
+iteration: 49000 loss: 0.0037 lr: 0.02
+iteration: 50000 loss: 0.0036 lr: 0.02
+iteration: 51000 loss: 0.0036 lr: 0.02
+iteration: 52000 loss: 0.0036 lr: 0.02
+iteration: 53000 loss: 0.0035 lr: 0.02
+iteration: 54000 loss: 0.0035 lr: 0.02
+iteration: 55000 loss: 0.0035 lr: 0.02
+iteration: 56000 loss: 0.0034 lr: 0.02
+iteration: 57000 loss: 0.0034 lr: 0.02
+iteration: 58000 loss: 0.0035 lr: 0.02
+iteration: 59000 loss: 0.0034 lr: 0.02
+iteration: 60000 loss: 0.0033 lr: 0.02
+iteration: 61000 loss: 0.0034 lr: 0.02
+iteration: 62000 loss: 0.0033 lr: 0.02
+iteration: 63000 loss: 0.0033 lr: 0.02
+iteration: 64000 loss: 0.0032 lr: 0.02
+iteration: 65000 loss: 0.0032 lr: 0.02
+iteration: 66000 loss: 0.0032 lr: 0.02
+iteration: 67000 loss: 0.0031 lr: 0.02
+iteration: 68000 loss: 0.0031 lr: 0.02
+iteration: 69000 loss: 0.0031 lr: 0.02
+iteration: 70000 loss: 0.0032 lr: 0.02
+iteration: 71000 loss: 0.0030 lr: 0.02
+iteration: 72000 loss: 0.0030 lr: 0.02
+iteration: 73000 loss: 0.0030 lr: 0.02
+iteration: 74000 loss: 0.0033 lr: 0.02
+iteration: 75000 loss: 0.0030 lr: 0.02
+iteration: 76000 loss: 0.0029 lr: 0.02
+iteration: 77000 loss: 0.0030 lr: 0.02
+iteration: 78000 loss: 0.0029 lr: 0.02
+iteration: 79000 loss: 0.0032 lr: 0.02
+iteration: 80000 loss: 0.0030 lr: 0.02
+iteration: 81000 loss: 0.0037 lr: 0.02
+iteration: 82000 loss: 0.0030 lr: 0.02
+iteration: 83000 loss: 0.0030 lr: 0.02
+iteration: 84000 loss: 0.0029 lr: 0.02
+iteration: 85000 loss: 0.0029 lr: 0.02
+iteration: 86000 loss: 0.0029 lr: 0.02
+iteration: 87000 loss: 0.0028 lr: 0.02
+iteration: 88000 loss: 0.0028 lr: 0.02
+iteration: 89000 loss: 0.0028 lr: 0.02
+iteration: 90000 loss: 0.0027 lr: 0.02
+iteration: 91000 loss: 0.0028 lr: 0.02
+iteration: 92000 loss: 0.0028 lr: 0.02
+iteration: 93000 loss: 0.0028 lr: 0.02
+iteration: 94000 loss: 0.0027 lr: 0.02
+iteration: 95000 loss: 0.0029 lr: 0.02
+iteration: 96000 loss: 0.0031 lr: 0.02
+iteration: 97000 loss: 0.0031 lr: 0.02
+iteration: 98000 loss: 0.0028 lr: 0.02
+iteration: 99000 loss: 0.0027 lr: 0.02
+iteration: 100000 loss: 0.0027 lr: 0.02
+iteration: 101000 loss: 0.0027 lr: 0.02
+iteration: 102000 loss: 0.0026 lr: 0.02
+iteration: 103000 loss: 0.0026 lr: 0.02
+iteration: 104000 loss: 0.0027 lr: 0.02
+iteration: 105000 loss: 0.0026 lr: 0.02
+iteration: 106000 loss: 0.0026 lr: 0.02
+iteration: 107000 loss: 0.0026 lr: 0.02
+iteration: 108000 loss: 0.0027 lr: 0.02
+iteration: 109000 loss: 0.0026 lr: 0.02
+iteration: 110000 loss: 0.0026 lr: 0.02
+iteration: 111000 loss: 0.0025 lr: 0.02
+iteration: 112000 loss: 0.0026 lr: 0.02
+iteration: 113000 loss: 0.0025 lr: 0.02
+iteration: 114000 loss: 0.0026 lr: 0.02
+iteration: 115000 loss: 0.0026 lr: 0.02
+iteration: 116000 loss: 0.0025 lr: 0.02
+iteration: 117000 loss: 0.0025 lr: 0.02
+iteration: 118000 loss: 0.0025 lr: 0.02
+iteration: 119000 loss: 0.0025 lr: 0.02
+iteration: 120000 loss: 0.0024 lr: 0.02
+iteration: 121000 loss: 0.0025 lr: 0.02
+iteration: 122000 loss: 0.0025 lr: 0.02
+iteration: 123000 loss: 0.0024 lr: 0.02
+iteration: 124000 loss: 0.0024 lr: 0.02
+iteration: 125000 loss: 0.0024 lr: 0.02
+iteration: 126000 loss: 0.0027 lr: 0.02
+iteration: 127000 loss: 0.0024 lr: 0.02
+iteration: 128000 loss: 0.0025 lr: 0.02
+iteration: 129000 loss: 0.0024 lr: 0.02
+iteration: 130000 loss: 0.0026 lr: 0.02
+iteration: 131000 loss: 0.0024 lr: 0.02
+iteration: 132000 loss: 0.0024 lr: 0.02
+iteration: 133000 loss: 0.0024 lr: 0.02
+iteration: 134000 loss: 0.0024 lr: 0.02
+iteration: 135000 loss: 0.0024 lr: 0.02
+iteration: 136000 loss: 0.0024 lr: 0.02
+iteration: 137000 loss: 0.0025 lr: 0.02
+iteration: 138000 loss: 0.0023 lr: 0.02
+iteration: 139000 loss: 0.0024 lr: 0.02
+iteration: 140000 loss: 0.0024 lr: 0.02
+iteration: 141000 loss: 0.0024 lr: 0.02
+iteration: 142000 loss: 0.0023 lr: 0.02
+iteration: 143000 loss: 0.0023 lr: 0.02
+iteration: 144000 loss: 0.0023 lr: 0.02
+iteration: 145000 loss: 0.0023 lr: 0.02
+iteration: 146000 loss: 0.0023 lr: 0.02
+iteration: 147000 loss: 0.0023 lr: 0.02
+iteration: 148000 loss: 0.0023 lr: 0.02
+iteration: 149000 loss: 0.0023 lr: 0.02
+iteration: 150000 loss: 0.0023 lr: 0.02
+iteration: 151000 loss: 0.0023 lr: 0.02
+iteration: 152000 loss: 0.0024 lr: 0.02
+iteration: 153000 loss: 0.0023 lr: 0.02
+iteration: 154000 loss: 0.0023 lr: 0.02
+iteration: 155000 loss: 0.0022 lr: 0.02
+iteration: 156000 loss: 0.0024 lr: 0.02
+iteration: 157000 loss: 0.0023 lr: 0.02
+iteration: 158000 loss: 0.0022 lr: 0.02
+iteration: 159000 loss: 0.0022 lr: 0.02
+iteration: 160000 loss: 0.0022 lr: 0.02
+iteration: 161000 loss: 0.0022 lr: 0.02
+iteration: 162000 loss: 0.0023 lr: 0.02
+iteration: 163000 loss: 0.0023 lr: 0.02
+iteration: 164000 loss: 0.0023 lr: 0.02
+iteration: 165000 loss: 0.0023 lr: 0.02
+iteration: 166000 loss: 0.0022 lr: 0.02
+iteration: 167000 loss: 0.0022 lr: 0.02
+iteration: 168000 loss: 0.0025 lr: 0.02
+iteration: 169000 loss: 0.0022 lr: 0.02
+iteration: 170000 loss: 0.0022 lr: 0.02
+iteration: 171000 loss: 0.0022 lr: 0.02
+iteration: 172000 loss: 0.0022 lr: 0.02
+iteration: 173000 loss: 0.0022 lr: 0.02
+iteration: 174000 loss: 0.0023 lr: 0.02
+iteration: 175000 loss: 0.0022 lr: 0.02
+iteration: 176000 loss: 0.0021 lr: 0.02
+iteration: 177000 loss: 0.0021 lr: 0.02
+iteration: 178000 loss: 0.0022 lr: 0.02
+iteration: 179000 loss: 0.0022 lr: 0.02
+iteration: 180000 loss: 0.0023 lr: 0.02
+iteration: 181000 loss: 0.0022 lr: 0.02
+iteration: 182000 loss: 0.0022 lr: 0.02
+iteration: 183000 loss: 0.0021 lr: 0.02
+iteration: 184000 loss: 0.0021 lr: 0.02
+iteration: 185000 loss: 0.0021 lr: 0.02
+iteration: 186000 loss: 0.0021 lr: 0.02
+iteration: 187000 loss: 0.0022 lr: 0.02
+iteration: 188000 loss: 0.0021 lr: 0.02
+iteration: 189000 loss: 0.0022 lr: 0.02
+iteration: 190000 loss: 0.0022 lr: 0.02
+iteration: 191000 loss: 0.0024 lr: 0.02
+iteration: 192000 loss: 0.0022 lr: 0.02
+iteration: 193000 loss: 0.0021 lr: 0.02
+iteration: 194000 loss: 0.0022 lr: 0.02
+iteration: 195000 loss: 0.0022 lr: 0.02
+iteration: 196000 loss: 0.0021 lr: 0.02
+iteration: 197000 loss: 0.0021 lr: 0.02
+iteration: 198000 loss: 0.0021 lr: 0.02
+iteration: 199000 loss: 0.0021 lr: 0.02
+iteration: 200000 loss: 0.0021 lr: 0.02
+iteration: 201000 loss: 0.0021 lr: 0.02
+iteration: 202000 loss: 0.0021 lr: 0.02
+iteration: 203000 loss: 0.0021 lr: 0.02
+iteration: 204000 loss: 0.0021 lr: 0.02
+iteration: 205000 loss: 0.0021 lr: 0.02
+iteration: 206000 loss: 0.0021 lr: 0.02
+iteration: 207000 loss: 0.0020 lr: 0.02
+iteration: 208000 loss: 0.0020 lr: 0.02
+iteration: 209000 loss: 0.0021 lr: 0.02
+iteration: 210000 loss: 0.0021 lr: 0.02
+iteration: 211000 loss: 0.0020 lr: 0.02
+iteration: 212000 loss: 0.0021 lr: 0.02
+iteration: 213000 loss: 0.0021 lr: 0.02
+iteration: 214000 loss: 0.0020 lr: 0.02
+iteration: 215000 loss: 0.0022 lr: 0.02
+iteration: 216000 loss: 0.0020 lr: 0.02
+iteration: 217000 loss: 0.0020 lr: 0.02
+iteration: 218000 loss: 0.0020 lr: 0.02
+iteration: 219000 loss: 0.0020 lr: 0.02
+iteration: 220000 loss: 0.0021 lr: 0.02
+iteration: 221000 loss: 0.0020 lr: 0.02
+iteration: 222000 loss: 0.0020 lr: 0.02
+iteration: 223000 loss: 0.0020 lr: 0.02
+iteration: 224000 loss: 0.0020 lr: 0.02
+iteration: 225000 loss: 0.0020 lr: 0.02
+iteration: 226000 loss: 0.0020 lr: 0.02
+iteration: 227000 loss: 0.0021 lr: 0.02
+iteration: 228000 loss: 0.0021 lr: 0.02
+iteration: 229000 loss: 0.0022 lr: 0.02
+iteration: 230000 loss: 0.0021 lr: 0.02
+iteration: 231000 loss: 0.0020 lr: 0.02
+iteration: 232000 loss: 0.0020 lr: 0.02
+iteration: 233000 loss: 0.0020 lr: 0.02
+iteration: 234000 loss: 0.0022 lr: 0.02
+iteration: 235000 loss: 0.0021 lr: 0.02
+iteration: 236000 loss: 0.0021 lr: 0.02
+iteration: 237000 loss: 0.0021 lr: 0.02
+iteration: 238000 loss: 0.0020 lr: 0.02
+iteration: 239000 loss: 0.0020 lr: 0.02
+iteration: 240000 loss: 0.0020 lr: 0.02
+iteration: 241000 loss: 0.0020 lr: 0.02
+iteration: 242000 loss: 0.0020 lr: 0.02
+iteration: 243000 loss: 0.0020 lr: 0.02
+iteration: 244000 loss: 0.0020 lr: 0.02
+iteration: 245000 loss: 0.0020 lr: 0.02
+iteration: 246000 loss: 0.0020 lr: 0.02
+iteration: 247000 loss: 0.0019 lr: 0.02
+iteration: 248000 loss: 0.0020 lr: 0.02
+iteration: 249000 loss: 0.0020 lr: 0.02
+iteration: 250000 loss: 0.0020 lr: 0.02
+iteration: 251000 loss: 0.0019 lr: 0.02
+iteration: 252000 loss: 0.0020 lr: 0.02
+iteration: 253000 loss: 0.0020 lr: 0.02
+iteration: 254000 loss: 0.0019 lr: 0.02
+iteration: 255000 loss: 0.0019 lr: 0.02
+iteration: 256000 loss: 0.0019 lr: 0.02
+iteration: 257000 loss: 0.0020 lr: 0.02
+iteration: 258000 loss: 0.0019 lr: 0.02
+iteration: 259000 loss: 0.0019 lr: 0.02
+iteration: 260000 loss: 0.0019 lr: 0.02
+iteration: 261000 loss: 0.0019 lr: 0.02
+iteration: 262000 loss: 0.0019 lr: 0.02
+iteration: 263000 loss: 0.0019 lr: 0.02
+iteration: 264000 loss: 0.0024 lr: 0.02
+iteration: 265000 loss: 0.0020 lr: 0.02
+iteration: 266000 loss: 0.0019 lr: 0.02
+iteration: 267000 loss: 0.0019 lr: 0.02
+iteration: 268000 loss: 0.0019 lr: 0.02
+iteration: 269000 loss: 0.0020 lr: 0.02
+iteration: 270000 loss: 0.0019 lr: 0.02
+iteration: 271000 loss: 0.0019 lr: 0.02
+iteration: 272000 loss: 0.0019 lr: 0.02
+iteration: 273000 loss: 0.0019 lr: 0.02
+iteration: 274000 loss: 0.0019 lr: 0.02
+iteration: 275000 loss: 0.0019 lr: 0.02
+iteration: 276000 loss: 0.0019 lr: 0.02
+iteration: 277000 loss: 0.0020 lr: 0.02
+iteration: 278000 loss: 0.0019 lr: 0.02
+iteration: 279000 loss: 0.0020 lr: 0.02
+iteration: 280000 loss: 0.0020 lr: 0.02
+iteration: 281000 loss: 0.0019 lr: 0.02
+iteration: 282000 loss: 0.0019 lr: 0.02
+iteration: 283000 loss: 0.0019 lr: 0.02
+iteration: 284000 loss: 0.0019 lr: 0.02
+iteration: 285000 loss: 0.0019 lr: 0.02
+iteration: 286000 loss: 0.0021 lr: 0.02
+iteration: 287000 loss: 0.0020 lr: 0.02
+iteration: 288000 loss: 0.0019 lr: 0.02
+iteration: 289000 loss: 0.0019 lr: 0.02
+iteration: 290000 loss: 0.0019 lr: 0.02
+iteration: 291000 loss: 0.0019 lr: 0.02
+iteration: 292000 loss: 0.0019 lr: 0.02
+iteration: 293000 loss: 0.0019 lr: 0.02
+iteration: 294000 loss: 0.0019 lr: 0.02
+iteration: 295000 loss: 0.0019 lr: 0.02
+iteration: 296000 loss: 0.0019 lr: 0.02
+iteration: 297000 loss: 0.0018 lr: 0.02
+iteration: 298000 loss: 0.0019 lr: 0.02
+iteration: 299000 loss: 0.0019 lr: 0.02
+iteration: 300000 loss: 0.0018 lr: 0.02
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/tensorflow/python/client/session.py", line 1377, in _do_call
+    return fn(*args)
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/tensorflow/python/client/session.py", line 1360, in _run_fn
+    return self._call_tf_sessionrun(options, feed_dict, fetch_list,
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/tensorflow/python/client/session.py", line 1453, in _call_tf_sessionrun
+    return tf_session.TF_SessionRun_wrapper(self._session, options, feed_dict,
+tensorflow.python.framework.errors_impl.CancelledError: Enqueue operation was cancelled
+	 [[{{node fifo_queue_enqueue}}]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/deeplabcut/pose_estimation_tensorflow/core/train.py", line 83, in load_and_enqueue
+    sess.run(enqueue_op, feed_dict=food)
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/tensorflow/python/client/session.py", line 967, in run
+    result = self._run(None, fetches, feed_dict, options_ptr,
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/tensorflow/python/client/session.py", line 1190, in _run
+    results = self._do_run(handle, final_targets, final_fetches,
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/tensorflow/python/client/session.py", line 1370, in _do_run
+    return self._do_call(_run_fn, feeds, fetches, targets, options,
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/tensorflow/python/client/session.py", line 1396, in _do_call
+    raise type(e)(node_def, op, message)  # pylint: disable=no-value-for-parameter
+tensorflow.python.framework.errors_impl.CancelledError: Graph execution error:
+
+Detected at node 'fifo_queue_enqueue' defined at (most recent call last):
+    File "train_augmentation_models.py", line 27, in <module>
+      train_all_shuffles(config_path, # config.yaml, common to all models
+    File "/home/jonas2/DLC_files/python_scripts/CaseStudyScripts/train_all_shuffles.py", line 34, in train_all_shuffles
+      deeplabcut.train_network(config_path, # config.yaml, common to all models
+    File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/deeplabcut/pose_estimation_tensorflow/training.py", line 207, in train_network
+      train(
+    File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/deeplabcut/pose_estimation_tensorflow/core/train.py", line 168, in train
+      batch, enqueue_op, placeholders = setup_preloading(batch_spec)
+    File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/deeplabcut/pose_estimation_tensorflow/core/train.py", line 69, in setup_preloading
+      enqueue_op = q.enqueue(placeholders_list)
+Node: 'fifo_queue_enqueue'
+Enqueue operation was cancelled
+	 [[{{node fifo_queue_enqueue}}]]
+
+Original stack trace for 'fifo_queue_enqueue':
+  File "train_augmentation_models.py", line 27, in <module>
+    train_all_shuffles(config_path, # config.yaml, common to all models
+  File "/home/jonas2/DLC_files/python_scripts/CaseStudyScripts/train_all_shuffles.py", line 34, in train_all_shuffles
+    deeplabcut.train_network(config_path, # config.yaml, common to all models
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/deeplabcut/pose_estimation_tensorflow/training.py", line 207, in train_network
+    train(
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/deeplabcut/pose_estimation_tensorflow/core/train.py", line 168, in train
+    batch, enqueue_op, placeholders = setup_preloading(batch_spec)
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/deeplabcut/pose_estimation_tensorflow/core/train.py", line 69, in setup_preloading
+    enqueue_op = q.enqueue(placeholders_list)
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/tensorflow/python/ops/data_flow_ops.py", line 346, in enqueue
+    return gen_data_flow_ops.queue_enqueue_v2(
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/tensorflow/python/ops/gen_data_flow_ops.py", line 4063, in queue_enqueue_v2
+    _, _, _op, _outputs = _op_def_library._apply_op_helper(
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/tensorflow/python/framework/op_def_library.py", line 797, in _apply_op_helper
+    op = g._create_op_internal(op_type_name, inputs, dtypes=None,
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/tensorflow/python/framework/ops.py", line 3754, in _create_op_internal
+    ret = Operation(
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/tensorflow/python/framework/ops.py", line 2133, in __init__
+    self._traceback = tf_stack.extract_stack_for_node(self._c_op)
+
+Config:
+{'all_joints': [[0],
+                [1],
+                [2],
+                [3],
+                [4],
+                [5],
+                [6],
+                [7],
+                [8],
+                [9],
+                [10],
+                [11],
+                [12],
+                [13],
+                [14],
+                [15],
+                [16],
+                [17],
+                [18],
+                [19],
+                [20],
+                [21],
+                [22],
+                [23],
+                [24],
+                [25],
+                [26],
+                [27],
+                [28],
+                [29],
+                [30],
+                [31],
+                [32],
+                [33],
+                [34],
+                [35],
+                [36],
+                [37],
+                [38],
+                [39],
+                [40]],
+ 'all_joints_names': ['L1hip',
+                      'L1knee',
+                      'L1ankle',
+                      'L1toe',
+                      'L2hip',
+                      'L2knee',
+                      'L2ankle',
+                      'L2toe',
+                      'L3hip',
+                      'L3knee',
+                      'L3ankle',
+                      'L3toe',
+                      'R1hip',
+                      'R1knee',
+                      'R1ankle',
+                      'R1toe',
+                      'R2hip',
+                      'R2knee',
+                      'R2ankle',
+                      'R2toe',
+                      'R3hip',
+                      'R3knee',
+                      'R3ankle',
+                      'R3toe',
+                      'Leye',
+                      'Reye',
+                      'nose',
+                      'Lantenna1',
+                      'Lantenna2',
+                      'Lantenna3',
+                      'Lantenna4',
+                      'Rantenna1',
+                      'Rantenna2',
+                      'Rantenna3',
+                      'Rantenna4',
+                      'Lbody',
+                      'Rbody',
+                      'rear',
+                      'centerbody',
+                      'Lshoulder',
+                      'Rshoulder'],
+ 'alpha_r': 0.02,
+ 'apply_prob': 0.5,
+ 'batch_size': 1,
+ 'contrast': {'clahe': True,
+              'claheratio': 0.1,
+              'histeq': True,
+              'histeqratio': 0.1},
+ 'convolution': {'edge': False, 'emboss': False, 'sharpen': False},
+ 'covering': True,
+ 'crop_by': 0.15,
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets/iteration-1/UnaugmentedDataSet_stinkbugsJul15/stinkbugs_DLC80shuffle2.mat',
+ 'dataset_type': 'imgaug',
+ 'decay_steps': 30000,
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'elastic_transform': True,
+ 'fg_fraction': 0.25,
+ 'gaussian_noise': False,
+ 'global_scale': 0.8,
+ 'grayscale': False,
+ 'init_weights': '/media/data/model-weights/resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'lr_init': 0.0005,
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets/iteration-1/UnaugmentedDataSet_stinkbugsJul15/Documentation_data-stinkbugs_80shuffle2.pickle',
+ 'min_input_size': 64,
+ 'mirror': False,
+ 'motion_blur': True,
+ 'motion_blur_params': {'angle': [-90, 90], 'k': 7},
+ 'multi_stage': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 41,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': False,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'pos_dist_thresh': 17,
+ 'pre_resize': [],
+ 'project_path': '/media/data/stinkbugs-DLC-2022-07-15',
+ 'regularize': False,
+ 'rotation': 25,
+ 'rotratio': 0.4,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': '/media/data/stinkbugs-DLC-2022-07-15/data_augm_00_baseline/dlc-models/iteration-1/stinkbugsJul15-trainset80shuffle2/train/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2022-07-19 10:31:33.499553: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1532] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 22344 MB memory:  -> device: 0, name: NVIDIA RTX A5000, pci bus id: 0000:19:00.0, compute capability: 8.6
+Loading DLC 2.2.1.1...
+DLC loaded in light mode; you cannot use any GUI (labeling, relabeling and standalone GUI)
+Selecting single-animal trainer
+Batch Size is 1
+Loading ImageNet-pretrained resnet_50
+Max_iters overwritten as 300000
+Display_iters overwritten as 1000
+Save_iters overwritten as 50000
+Training parameter:
+{'stride': 8.0, 'weigh_part_predictions': False, 'weigh_negatives': False, 'fg_fraction': 0.25, 'mean_pixel': [123.68, 116.779, 103.939], 'shuffle': True, 'snapshot_prefix': '/media/data/stinkbugs-DLC-2022-07-15/data_augm_00_baseline/dlc-models/iteration-1/stinkbugsJul15-trainset80shuffle0/train/snapshot', 'log_dir': 'log', 'global_scale': 0.8, 'location_refinement': True, 'locref_stdev': 7.2801, 'locref_loss_weight': 0.05, 'locref_huber_loss': True, 'optimizer': 'sgd', 'intermediate_supervision': False, 'intermediate_supervision_layer': 12, 'regularize': False, 'weight_decay': 0.0001, 'crop_pad': 0, 'scoremap_dir': 'test', 'batch_size': 1, 'dataset_type': 'imgaug', 'deterministic': False, 'mirror': False, 'pairwise_huber_loss': False, 'weigh_only_present_joints': False, 'partaffinityfield_predict': False, 'pairwise_predict': False, 'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20], [21], [22], [23], [24], [25], [26], [27], [28], [29], [30], [31], [32], [33], [34], [35], [36], [37], [38], [39], [40]], 'all_joints_names': ['L1hip', 'L1knee', 'L1ankle', 'L1toe', 'L2hip', 'L2knee', 'L2ankle', 'L2toe', 'L3hip', 'L3knee', 'L3ankle', 'L3toe', 'R1hip', 'R1knee', 'R1ankle', 'R1toe', 'R2hip', 'R2knee', 'R2ankle', 'R2toe', 'R3hip', 'R3knee', 'R3ankle', 'R3toe', 'Leye', 'Reye', 'nose', 'Lantenna1', 'Lantenna2', 'Lantenna3', 'Lantenna4', 'Rantenna1', 'Rantenna2', 'Rantenna3', 'Rantenna4', 'Lbody', 'Rbody', 'rear', 'centerbody', 'Lshoulder', 'Rshoulder'], 'alpha_r': 0.02, 'apply_prob': 0.5, 'contrast': {'clahe': True, 'claheratio': 0.1, 'histeq': True, 'histeqratio': 0.1, 'gamma': False, 'sigmoid': False, 'log': False, 'linear': False}, 'convolution': {'sharpen': False, 'edge': False, 'emboss': False}, 'dataset': 'training-datasets/iteration-1/UnaugmentedDataSet_stinkbugsJul15/stinkbugs_DLC80shuffle0.mat', 'decay_steps': 30000, 'display_iters': 1000, 'init_weights': '/media/data/model-weights/resnet_v1_50.ckpt', 'lr_init': 0.0005, 'max_input_size': 1500, 'metadataset': 'training-datasets/iteration-1/UnaugmentedDataSet_stinkbugsJul15/Documentation_data-stinkbugs_80shuffle0.pickle', 'min_input_size': 64, 'multi_stage': False, 'multi_step': [[0.005, 10000], [0.02, 430000], [0.002, 730000], [0.001, 1030000]], 'net_type': 'resnet_50', 'num_joints': 41, 'pos_dist_thresh': 17, 'project_path': '/media/data/stinkbugs-DLC-2022-07-15', 'rotation': 25, 'rotratio': 0.4, 'save_iters': 50000, 'scale_jitter_lo': 0.5, 'scale_jitter_up': 1.25, 'pre_resize': [], 'crop_by': 0.15, 'cropratio': 0.4, 'motion_blur': True, 'motion_blur_params': {'k': 7, 'angle': [-90, 90]}, 'grayscale': False, 'covering': True, 'elastic_transform': True, 'gaussian_noise': False}
+Starting training....
+The network is now trained and ready to evaluate. Use the function 'evaluate_network' to evaluate the network.
+Selecting single-animal trainer
+Batch Size is 1
+Loading ImageNet-pretrained resnet_50
+Max_iters overwritten as 300000
+Display_iters overwritten as 1000
+Save_iters overwritten as 50000
+Training parameter:
+{'stride': 8.0, 'weigh_part_predictions': False, 'weigh_negatives': False, 'fg_fraction': 0.25, 'mean_pixel': [123.68, 116.779, 103.939], 'shuffle': True, 'snapshot_prefix': '/media/data/stinkbugs-DLC-2022-07-15/data_augm_00_baseline/dlc-models/iteration-1/stinkbugsJul15-trainset80shuffle1/train/snapshot', 'log_dir': 'log', 'global_scale': 0.8, 'location_refinement': True, 'locref_stdev': 7.2801, 'locref_loss_weight': 0.05, 'locref_huber_loss': True, 'optimizer': 'sgd', 'intermediate_supervision': False, 'intermediate_supervision_layer': 12, 'regularize': False, 'weight_decay': 0.0001, 'crop_pad': 0, 'scoremap_dir': 'test', 'batch_size': 1, 'dataset_type': 'imgaug', 'deterministic': False, 'mirror': False, 'pairwise_huber_loss': False, 'weigh_only_present_joints': False, 'partaffinityfield_predict': False, 'pairwise_predict': False, 'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20], [21], [22], [23], [24], [25], [26], [27], [28], [29], [30], [31], [32], [33], [34], [35], [36], [37], [38], [39], [40]], 'all_joints_names': ['L1hip', 'L1knee', 'L1ankle', 'L1toe', 'L2hip', 'L2knee', 'L2ankle', 'L2toe', 'L3hip', 'L3knee', 'L3ankle', 'L3toe', 'R1hip', 'R1knee', 'R1ankle', 'R1toe', 'R2hip', 'R2knee', 'R2ankle', 'R2toe', 'R3hip', 'R3knee', 'R3ankle', 'R3toe', 'Leye', 'Reye', 'nose', 'Lantenna1', 'Lantenna2', 'Lantenna3', 'Lantenna4', 'Rantenna1', 'Rantenna2', 'Rantenna3', 'Rantenna4', 'Lbody', 'Rbody', 'rear', 'centerbody', 'Lshoulder', 'Rshoulder'], 'alpha_r': 0.02, 'apply_prob': 0.5, 'contrast': {'clahe': True, 'claheratio': 0.1, 'histeq': True, 'histeqratio': 0.1, 'gamma': False, 'sigmoid': False, 'log': False, 'linear': False}, 'convolution': {'sharpen': False, 'edge': False, 'emboss': False}, 'cropratio': 0.4, 'dataset': 'training-datasets/iteration-1/UnaugmentedDataSet_stinkbugsJul15/stinkbugs_DLC80shuffle1.mat', 'decay_steps': 30000, 'display_iters': 1000, 'init_weights': '/media/data/model-weights/resnet_v1_50.ckpt', 'lr_init': 0.0005, 'max_input_size': 1500, 'metadataset': 'training-datasets/iteration-1/UnaugmentedDataSet_stinkbugsJul15/Documentation_data-stinkbugs_80shuffle1.pickle', 'min_input_size': 64, 'multi_stage': False, 'multi_step': [[0.005, 10000], [0.02, 430000], [0.002, 730000], [0.001, 1030000]], 'net_type': 'resnet_50', 'num_joints': 41, 'pos_dist_thresh': 17, 'project_path': '/media/data/stinkbugs-DLC-2022-07-15', 'rotation': 25, 'rotratio': 0.4, 'save_iters': 50000, 'scale_jitter_lo': 0.5, 'scale_jitter_up': 1.25, 'pre_resize': [], 'crop_by': 0.15, 'motion_blur': True, 'motion_blur_params': {'k': 7, 'angle': [-90, 90]}, 'grayscale': False, 'covering': True, 'elastic_transform': True, 'gaussian_noise': False}
+Starting training....
+The network is now trained and ready to evaluate. Use the function 'evaluate_network' to evaluate the network.
+Selecting single-animal trainer
+Batch Size is 1
+Loading ImageNet-pretrained resnet_50
+Max_iters overwritten as 300000
+Display_iters overwritten as 1000
+Save_iters overwritten as 50000
+Training parameter:
+iteration: 1000 loss: 0.0287 lr: 0.005
+iteration: 2000 loss: 0.0192 lr: 0.005
+iteration: 3000 loss: 0.0182 lr: 0.005
+iteration: 4000 loss: 0.0159 lr: 0.005
+iteration: 5000 loss: 0.0149 lr: 0.005
+iteration: 6000 loss: 0.0130 lr: 0.005
+iteration: 7000 loss: 0.0120 lr: 0.005
+iteration: 8000 loss: 0.0111 lr: 0.005
+iteration: 9000 loss: 0.0106 lr: 0.005
+iteration: 10000 loss: 0.0104 lr: 0.005
+iteration: 11000 loss: 0.0103 lr: 0.02
+iteration: 12000 loss: 0.0091 lr: 0.02
+iteration: 13000 loss: 0.0088 lr: 0.02
+iteration: 14000 loss: 0.0079 lr: 0.02
+iteration: 15000 loss: 0.0073 lr: 0.02
+iteration: 16000 loss: 0.0068 lr: 0.02
+iteration: 17000 loss: 0.0064 lr: 0.02
+iteration: 18000 loss: 0.0066 lr: 0.02
+iteration: 19000 loss: 0.0060 lr: 0.02
+iteration: 20000 loss: 0.0060 lr: 0.02
+iteration: 21000 loss: 0.0057 lr: 0.02
+iteration: 22000 loss: 0.0064 lr: 0.02
+iteration: 23000 loss: 0.0056 lr: 0.02
+iteration: 24000 loss: 0.0054 lr: 0.02
+iteration: 25000 loss: 0.0052 lr: 0.02
+iteration: 26000 loss: 0.0050 lr: 0.02
+iteration: 27000 loss: 0.0048 lr: 0.02
+iteration: 28000 loss: 0.0047 lr: 0.02
+iteration: 29000 loss: 0.0046 lr: 0.02
+iteration: 30000 loss: 0.0044 lr: 0.02
+iteration: 31000 loss: 0.0044 lr: 0.02
+iteration: 32000 loss: 0.0043 lr: 0.02
+iteration: 33000 loss: 0.0043 lr: 0.02
+iteration: 34000 loss: 0.0042 lr: 0.02
+iteration: 35000 loss: 0.0041 lr: 0.02
+iteration: 36000 loss: 0.0041 lr: 0.02
+iteration: 37000 loss: 0.0039 lr: 0.02
+iteration: 38000 loss: 0.0039 lr: 0.02
+iteration: 39000 loss: 0.0040 lr: 0.02
+iteration: 40000 loss: 0.0038 lr: 0.02
+iteration: 41000 loss: 0.0038 lr: 0.02
+iteration: 42000 loss: 0.0037 lr: 0.02
+iteration: 43000 loss: 0.0037 lr: 0.02
+iteration: 44000 loss: 0.0038 lr: 0.02
+iteration: 45000 loss: 0.0036 lr: 0.02
+iteration: 46000 loss: 0.0036 lr: 0.02
+iteration: 47000 loss: 0.0035 lr: 0.02
+iteration: 48000 loss: 0.0035 lr: 0.02
+iteration: 49000 loss: 0.0043 lr: 0.02
+iteration: 50000 loss: 0.0040 lr: 0.02
+iteration: 51000 loss: 0.0037 lr: 0.02
+iteration: 52000 loss: 0.0035 lr: 0.02
+iteration: 53000 loss: 0.0036 lr: 0.02
+iteration: 54000 loss: 0.0035 lr: 0.02
+iteration: 55000 loss: 0.0033 lr: 0.02
+iteration: 56000 loss: 0.0033 lr: 0.02
+iteration: 57000 loss: 0.0033 lr: 0.02
+iteration: 58000 loss: 0.0035 lr: 0.02
+iteration: 59000 loss: 0.0032 lr: 0.02
+iteration: 60000 loss: 0.0031 lr: 0.02
+iteration: 61000 loss: 0.0031 lr: 0.02
+iteration: 62000 loss: 0.0031 lr: 0.02
+iteration: 63000 loss: 0.0031 lr: 0.02
+iteration: 64000 loss: 0.0030 lr: 0.02
+iteration: 65000 loss: 0.0031 lr: 0.02
+iteration: 66000 loss: 0.0030 lr: 0.02
+iteration: 67000 loss: 0.0030 lr: 0.02
+iteration: 68000 loss: 0.0036 lr: 0.02
+iteration: 69000 loss: 0.0030 lr: 0.02
+iteration: 70000 loss: 0.0029 lr: 0.02
+iteration: 71000 loss: 0.0030 lr: 0.02
+iteration: 72000 loss: 0.0029 lr: 0.02
+iteration: 73000 loss: 0.0029 lr: 0.02
+iteration: 74000 loss: 0.0030 lr: 0.02
+iteration: 75000 loss: 0.0028 lr: 0.02
+iteration: 76000 loss: 0.0030 lr: 0.02
+iteration: 77000 loss: 0.0029 lr: 0.02
+iteration: 78000 loss: 0.0036 lr: 0.02
+iteration: 79000 loss: 0.0031 lr: 0.02
+iteration: 80000 loss: 0.0030 lr: 0.02
+iteration: 81000 loss: 0.0031 lr: 0.02
+iteration: 82000 loss: 0.0028 lr: 0.02
+iteration: 83000 loss: 0.0030 lr: 0.02
+iteration: 84000 loss: 0.0030 lr: 0.02
+iteration: 85000 loss: 0.0027 lr: 0.02
+iteration: 86000 loss: 0.0028 lr: 0.02
+iteration: 87000 loss: 0.0028 lr: 0.02
+iteration: 88000 loss: 0.0027 lr: 0.02
+iteration: 89000 loss: 0.0027 lr: 0.02
+iteration: 90000 loss: 0.0027 lr: 0.02
+iteration: 91000 loss: 0.0027 lr: 0.02
+iteration: 92000 loss: 0.0027 lr: 0.02
+iteration: 93000 loss: 0.0027 lr: 0.02
+iteration: 94000 loss: 0.0026 lr: 0.02
+iteration: 95000 loss: 0.0027 lr: 0.02
+iteration: 96000 loss: 0.0026 lr: 0.02
+iteration: 97000 loss: 0.0026 lr: 0.02
+iteration: 98000 loss: 0.0026 lr: 0.02
+iteration: 99000 loss: 0.0028 lr: 0.02
+iteration: 100000 loss: 0.0028 lr: 0.02
+iteration: 101000 loss: 0.0026 lr: 0.02
+iteration: 102000 loss: 0.0026 lr: 0.02
+iteration: 103000 loss: 0.0026 lr: 0.02
+iteration: 104000 loss: 0.0029 lr: 0.02
+iteration: 105000 loss: 0.0026 lr: 0.02
+iteration: 106000 loss: 0.0026 lr: 0.02
+iteration: 107000 loss: 0.0025 lr: 0.02
+iteration: 108000 loss: 0.0025 lr: 0.02
+iteration: 109000 loss: 0.0025 lr: 0.02
+iteration: 110000 loss: 0.0025 lr: 0.02
+iteration: 111000 loss: 0.0025 lr: 0.02
+iteration: 112000 loss: 0.0025 lr: 0.02
+iteration: 113000 loss: 0.0025 lr: 0.02
+iteration: 114000 loss: 0.0024 lr: 0.02
+iteration: 115000 loss: 0.0025 lr: 0.02
+iteration: 116000 loss: 0.0024 lr: 0.02
+iteration: 117000 loss: 0.0024 lr: 0.02
+iteration: 118000 loss: 0.0024 lr: 0.02
+iteration: 119000 loss: 0.0024 lr: 0.02
+iteration: 120000 loss: 0.0024 lr: 0.02
+iteration: 121000 loss: 0.0024 lr: 0.02
+iteration: 122000 loss: 0.0025 lr: 0.02
+iteration: 123000 loss: 0.0025 lr: 0.02
+iteration: 124000 loss: 0.0024 lr: 0.02
+iteration: 125000 loss: 0.0024 lr: 0.02
+iteration: 126000 loss: 0.0023 lr: 0.02
+iteration: 127000 loss: 0.0024 lr: 0.02
+iteration: 128000 loss: 0.0023 lr: 0.02
+iteration: 129000 loss: 0.0024 lr: 0.02
+iteration: 130000 loss: 0.0027 lr: 0.02
+iteration: 131000 loss: 0.0024 lr: 0.02
+iteration: 132000 loss: 0.0024 lr: 0.02
+iteration: 133000 loss: 0.0023 lr: 0.02
+iteration: 134000 loss: 0.0023 lr: 0.02
+iteration: 135000 loss: 0.0023 lr: 0.02
+iteration: 136000 loss: 0.0023 lr: 0.02
+iteration: 137000 loss: 0.0023 lr: 0.02
+iteration: 138000 loss: 0.0023 lr: 0.02
+iteration: 139000 loss: 0.0023 lr: 0.02
+iteration: 140000 loss: 0.0023 lr: 0.02
+iteration: 141000 loss: 0.0023 lr: 0.02
+iteration: 142000 loss: 0.0023 lr: 0.02
+iteration: 143000 loss: 0.0023 lr: 0.02
+iteration: 144000 loss: 0.0022 lr: 0.02
+iteration: 145000 loss: 0.0022 lr: 0.02
+iteration: 146000 loss: 0.0023 lr: 0.02
+iteration: 147000 loss: 0.0022 lr: 0.02
+iteration: 148000 loss: 0.0023 lr: 0.02
+iteration: 149000 loss: 0.0022 lr: 0.02
+iteration: 150000 loss: 0.0022 lr: 0.02
+iteration: 151000 loss: 0.0022 lr: 0.02
+iteration: 152000 loss: 0.0023 lr: 0.02
+iteration: 153000 loss: 0.0023 lr: 0.02
+iteration: 154000 loss: 0.0022 lr: 0.02
+iteration: 155000 loss: 0.0022 lr: 0.02
+iteration: 156000 loss: 0.0025 lr: 0.02
+iteration: 157000 loss: 0.0025 lr: 0.02
+iteration: 158000 loss: 0.0023 lr: 0.02
+iteration: 159000 loss: 0.0023 lr: 0.02
+iteration: 160000 loss: 0.0022 lr: 0.02
+iteration: 161000 loss: 0.0023 lr: 0.02
+iteration: 162000 loss: 0.0022 lr: 0.02
+iteration: 163000 loss: 0.0022 lr: 0.02
+iteration: 164000 loss: 0.0021 lr: 0.02
+iteration: 165000 loss: 0.0022 lr: 0.02
+iteration: 166000 loss: 0.0022 lr: 0.02
+iteration: 167000 loss: 0.0022 lr: 0.02
+iteration: 168000 loss: 0.0022 lr: 0.02
+iteration: 169000 loss: 0.0021 lr: 0.02
+iteration: 170000 loss: 0.0021 lr: 0.02
+iteration: 171000 loss: 0.0023 lr: 0.02
+iteration: 172000 loss: 0.0021 lr: 0.02
+iteration: 173000 loss: 0.0021 lr: 0.02
+iteration: 174000 loss: 0.0021 lr: 0.02
+iteration: 175000 loss: 0.0021 lr: 0.02
+iteration: 176000 loss: 0.0021 lr: 0.02
+iteration: 177000 loss: 0.0021 lr: 0.02
+iteration: 178000 loss: 0.0023 lr: 0.02
+iteration: 179000 loss: 0.0021 lr: 0.02
+iteration: 180000 loss: 0.0021 lr: 0.02
+iteration: 181000 loss: 0.0021 lr: 0.02
+iteration: 182000 loss: 0.0021 lr: 0.02
+iteration: 183000 loss: 0.0021 lr: 0.02
+iteration: 184000 loss: 0.0021 lr: 0.02
+iteration: 185000 loss: 0.0021 lr: 0.02
+iteration: 186000 loss: 0.0021 lr: 0.02
+iteration: 187000 loss: 0.0021 lr: 0.02
+iteration: 188000 loss: 0.0020 lr: 0.02
+iteration: 189000 loss: 0.0021 lr: 0.02
+iteration: 190000 loss: 0.0020 lr: 0.02
+iteration: 191000 loss: 0.0021 lr: 0.02
+iteration: 192000 loss: 0.0021 lr: 0.02
+iteration: 193000 loss: 0.0021 lr: 0.02
+iteration: 194000 loss: 0.0021 lr: 0.02
+iteration: 195000 loss: 0.0020 lr: 0.02
+iteration: 196000 loss: 0.0021 lr: 0.02
+iteration: 197000 loss: 0.0021 lr: 0.02
+iteration: 198000 loss: 0.0020 lr: 0.02
+iteration: 199000 loss: 0.0021 lr: 0.02
+iteration: 200000 loss: 0.0020 lr: 0.02
+iteration: 201000 loss: 0.0020 lr: 0.02
+iteration: 202000 loss: 0.0020 lr: 0.02
+iteration: 203000 loss: 0.0020 lr: 0.02
+iteration: 204000 loss: 0.0021 lr: 0.02
+iteration: 205000 loss: 0.0021 lr: 0.02
+iteration: 206000 loss: 0.0020 lr: 0.02
+iteration: 207000 loss: 0.0020 lr: 0.02
+iteration: 208000 loss: 0.0021 lr: 0.02
+iteration: 209000 loss: 0.0020 lr: 0.02
+iteration: 210000 loss: 0.0021 lr: 0.02
+iteration: 211000 loss: 0.0021 lr: 0.02
+iteration: 212000 loss: 0.0021 lr: 0.02
+iteration: 213000 loss: 0.0021 lr: 0.02
+iteration: 214000 loss: 0.0020 lr: 0.02
+iteration: 215000 loss: 0.0021 lr: 0.02
+iteration: 216000 loss: 0.0024 lr: 0.02
+iteration: 217000 loss: 0.0031 lr: 0.02
+iteration: 218000 loss: 0.0025 lr: 0.02
+iteration: 219000 loss: 0.0021 lr: 0.02
+iteration: 220000 loss: 0.0021 lr: 0.02
+iteration: 221000 loss: 0.0023 lr: 0.02
+iteration: 222000 loss: 0.0021 lr: 0.02
+iteration: 223000 loss: 0.0021 lr: 0.02
+iteration: 224000 loss: 0.0020 lr: 0.02
+iteration: 225000 loss: 0.0020 lr: 0.02
+iteration: 226000 loss: 0.0020 lr: 0.02
+iteration: 227000 loss: 0.0020 lr: 0.02
+iteration: 228000 loss: 0.0020 lr: 0.02
+iteration: 229000 loss: 0.0020 lr: 0.02
+iteration: 230000 loss: 0.0020 lr: 0.02
+iteration: 231000 loss: 0.0023 lr: 0.02
+iteration: 232000 loss: 0.0024 lr: 0.02
+iteration: 233000 loss: 0.0029 lr: 0.02
+iteration: 234000 loss: 0.0023 lr: 0.02
+iteration: 235000 loss: 0.0022 lr: 0.02
+iteration: 236000 loss: 0.0022 lr: 0.02
+iteration: 237000 loss: 0.0021 lr: 0.02
+iteration: 238000 loss: 0.0021 lr: 0.02
+iteration: 239000 loss: 0.0021 lr: 0.02
+iteration: 240000 loss: 0.0021 lr: 0.02
+iteration: 241000 loss: 0.0020 lr: 0.02
+iteration: 242000 loss: 0.0021 lr: 0.02
+iteration: 243000 loss: 0.0020 lr: 0.02
+iteration: 244000 loss: 0.0020 lr: 0.02
+iteration: 245000 loss: 0.0020 lr: 0.02
+iteration: 246000 loss: 0.0020 lr: 0.02
+iteration: 247000 loss: 0.0020 lr: 0.02
+iteration: 248000 loss: 0.0019 lr: 0.02
+iteration: 249000 loss: 0.0020 lr: 0.02
+iteration: 250000 loss: 0.0019 lr: 0.02
+iteration: 251000 loss: 0.0019 lr: 0.02
+iteration: 252000 loss: 0.0020 lr: 0.02
+iteration: 253000 loss: 0.0020 lr: 0.02
+iteration: 254000 loss: 0.0021 lr: 0.02
+iteration: 255000 loss: 0.0019 lr: 0.02
+iteration: 256000 loss: 0.0019 lr: 0.02
+iteration: 257000 loss: 0.0019 lr: 0.02
+iteration: 258000 loss: 0.0019 lr: 0.02
+iteration: 259000 loss: 0.0019 lr: 0.02
+iteration: 260000 loss: 0.0019 lr: 0.02
+iteration: 261000 loss: 0.0019 lr: 0.02
+iteration: 262000 loss: 0.0019 lr: 0.02
+iteration: 263000 loss: 0.0019 lr: 0.02
+iteration: 264000 loss: 0.0019 lr: 0.02
+iteration: 265000 loss: 0.0020 lr: 0.02
+iteration: 266000 loss: 0.0020 lr: 0.02
+iteration: 267000 loss: 0.0019 lr: 0.02
+iteration: 268000 loss: 0.0019 lr: 0.02
+iteration: 269000 loss: 0.0019 lr: 0.02
+iteration: 270000 loss: 0.0020 lr: 0.02
+iteration: 271000 loss: 0.0019 lr: 0.02
+iteration: 272000 loss: 0.0019 lr: 0.02
+iteration: 273000 loss: 0.0019 lr: 0.02
+iteration: 274000 loss: 0.0019 lr: 0.02
+iteration: 275000 loss: 0.0019 lr: 0.02
+iteration: 276000 loss: 0.0019 lr: 0.02
+iteration: 277000 loss: 0.0019 lr: 0.02
+iteration: 278000 loss: 0.0019 lr: 0.02
+iteration: 279000 loss: 0.0019 lr: 0.02
+iteration: 280000 loss: 0.0021 lr: 0.02
+iteration: 281000 loss: 0.0020 lr: 0.02
+iteration: 282000 loss: 0.0019 lr: 0.02
+iteration: 283000 loss: 0.0019 lr: 0.02
+iteration: 284000 loss: 0.0019 lr: 0.02
+iteration: 285000 loss: 0.0019 lr: 0.02
+iteration: 286000 loss: 0.0019 lr: 0.02
+iteration: 287000 loss: 0.0018 lr: 0.02
+iteration: 288000 loss: 0.0018 lr: 0.02
+iteration: 289000 loss: 0.0018 lr: 0.02
+iteration: 290000 loss: 0.0018 lr: 0.02
+iteration: 291000 loss: 0.0018 lr: 0.02
+iteration: 292000 loss: 0.0018 lr: 0.02
+iteration: 293000 loss: 0.0019 lr: 0.02
+iteration: 294000 loss: 0.0019 lr: 0.02
+iteration: 295000 loss: 0.0018 lr: 0.02
+iteration: 296000 loss: 0.0019 lr: 0.02
+iteration: 297000 loss: 0.0018 lr: 0.02
+iteration: 298000 loss: 0.0018 lr: 0.02
+iteration: 299000 loss: 0.0018 lr: 0.02
+iteration: 300000 loss: 0.0018 lr: 0.02
+Exception in thread Thread-3:
+Traceback (most recent call last):
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/deeplabcut/pose_estimation_tensorflow/core/train.py", line 83, in load_and_enqueue
+    sess.run(enqueue_op, feed_dict=food)
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/tensorflow/python/client/session.py", line 967, in run
+    result = self._run(None, fetches, feed_dict, options_ptr,
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/tensorflow/python/client/session.py", line 1115, in _run
+    raise RuntimeError('Attempted to use a closed Session.')
+RuntimeError: Attempted to use a closed Session.
+Config:
+{'all_joints': [[0],
+                [1],
+                [2],
+                [3],
+                [4],
+                [5],
+                [6],
+                [7],
+                [8],
+                [9],
+                [10],
+                [11],
+                [12],
+                [13],
+                [14],
+                [15],
+                [16],
+                [17],
+                [18],
+                [19],
+                [20],
+                [21],
+                [22],
+                [23],
+                [24],
+                [25],
+                [26],
+                [27],
+                [28],
+                [29],
+                [30],
+                [31],
+                [32],
+                [33],
+                [34],
+                [35],
+                [36],
+                [37],
+                [38],
+                [39],
+                [40]],
+ 'all_joints_names': ['L1hip',
+                      'L1knee',
+                      'L1ankle',
+                      'L1toe',
+                      'L2hip',
+                      'L2knee',
+                      'L2ankle',
+                      'L2toe',
+                      'L3hip',
+                      'L3knee',
+                      'L3ankle',
+                      'L3toe',
+                      'R1hip',
+                      'R1knee',
+                      'R1ankle',
+                      'R1toe',
+                      'R2hip',
+                      'R2knee',
+                      'R2ankle',
+                      'R2toe',
+                      'R3hip',
+                      'R3knee',
+                      'R3ankle',
+                      'R3toe',
+                      'Leye',
+                      'Reye',
+                      'nose',
+                      'Lantenna1',
+                      'Lantenna2',
+                      'Lantenna3',
+                      'Lantenna4',
+                      'Rantenna1',
+                      'Rantenna2',
+                      'Rantenna3',
+                      'Rantenna4',
+                      'Lbody',
+                      'Rbody',
+                      'rear',
+                      'centerbody',
+                      'Lshoulder',
+                      'Rshoulder'],
+ 'alpha_r': 0.02,
+ 'apply_prob': 0.5,
+ 'batch_size': 1,
+ 'contrast': {'clahe': True,
+              'claheratio': 0.1,
+              'histeq': True,
+              'histeqratio': 0.1},
+ 'convolution': {'edge': False, 'emboss': False, 'sharpen': False},
+ 'covering': True,
+ 'crop_by': 0.0,
+ 'crop_pad': 0,
+ 'cropratio': 0.0,
+ 'dataset': 'training-datasets/iteration-1/UnaugmentedDataSet_stinkbugsJul15/stinkbugs_DLC80shuffle0.mat',
+ 'dataset_type': 'imgaug',
+ 'decay_steps': 30000,
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'elastic_transform': True,
+ 'fg_fraction': 0.25,
+ 'gaussian_noise': False,
+ 'global_scale': 0.8,
+ 'grayscale': False,
+ 'init_weights': '/media/data/model-weights/resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'lr_init': 0.0005,
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets/iteration-1/UnaugmentedDataSet_stinkbugsJul15/Documentation_data-stinkbugs_80shuffle0.pickle',
+ 'min_input_size': 64,
+ 'mirror': False,
+ 'motion_blur': True,
+ 'motion_blur_params': {'angle': [-90, 90], 'k': 7},
+ 'multi_stage': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 41,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': False,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'pos_dist_thresh': 17,
+ 'pre_resize': [],
+ 'project_path': '/media/data/stinkbugs-DLC-2022-07-15',
+ 'regularize': False,
+ 'rotation': 25,
+ 'rotratio': 0.4,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': '/media/data/stinkbugs-DLC-2022-07-15/data_augm_01_crop/dlc-models/iteration-1/stinkbugsJul15-trainset80shuffle0/train/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2022-07-19 19:35:12.306518: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1532] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 22344 MB memory:  -> device: 0, name: NVIDIA RTX A5000, pci bus id: 0000:19:00.0, compute capability: 8.6
+iteration: 1000 loss: 0.0284 lr: 0.005
+iteration: 2000 loss: 0.0184 lr: 0.005
+iteration: 3000 loss: 0.0169 lr: 0.005
+iteration: 4000 loss: 0.0156 lr: 0.005
+iteration: 5000 loss: 0.0149 lr: 0.005
+iteration: 6000 loss: 0.0136 lr: 0.005
+iteration: 7000 loss: 0.0125 lr: 0.005
+iteration: 8000 loss: 0.0120 lr: 0.005
+iteration: 9000 loss: 0.0113 lr: 0.005
+iteration: 10000 loss: 0.0104 lr: 0.005
+iteration: 11000 loss: 0.0107 lr: 0.02
+iteration: 12000 loss: 0.0091 lr: 0.02
+iteration: 13000 loss: 0.0085 lr: 0.02
+iteration: 14000 loss: 0.0084 lr: 0.02
+iteration: 15000 loss: 0.0074 lr: 0.02
+iteration: 16000 loss: 0.0069 lr: 0.02
+iteration: 17000 loss: 0.0065 lr: 0.02
+iteration: 18000 loss: 0.0063 lr: 0.02
+iteration: 19000 loss: 0.0059 lr: 0.02
+iteration: 20000 loss: 0.0057 lr: 0.02
+iteration: 21000 loss: 0.0060 lr: 0.02
+iteration: 22000 loss: 0.0055 lr: 0.02
+iteration: 23000 loss: 0.0052 lr: 0.02
+iteration: 24000 loss: 0.0050 lr: 0.02
+iteration: 25000 loss: 0.0051 lr: 0.02
+iteration: 26000 loss: 0.0056 lr: 0.02
+iteration: 27000 loss: 0.0050 lr: 0.02
+iteration: 28000 loss: 0.0064 lr: 0.02
+iteration: 29000 loss: 0.0066 lr: 0.02
+iteration: 30000 loss: 0.0050 lr: 0.02
+iteration: 31000 loss: 0.0047 lr: 0.02
+iteration: 32000 loss: 0.0045 lr: 0.02
+iteration: 33000 loss: 0.0044 lr: 0.02
+iteration: 34000 loss: 0.0043 lr: 0.02
+iteration: 35000 loss: 0.0042 lr: 0.02
+iteration: 36000 loss: 0.0049 lr: 0.02
+iteration: 37000 loss: 0.0045 lr: 0.02
+iteration: 38000 loss: 0.0042 lr: 0.02
+iteration: 39000 loss: 0.0040 lr: 0.02
+iteration: 40000 loss: 0.0039 lr: 0.02
+iteration: 41000 loss: 0.0038 lr: 0.02
+iteration: 42000 loss: 0.0037 lr: 0.02
+iteration: 43000 loss: 0.0038 lr: 0.02
+iteration: 44000 loss: 0.0036 lr: 0.02
+iteration: 45000 loss: 0.0036 lr: 0.02
+iteration: 46000 loss: 0.0035 lr: 0.02
+iteration: 47000 loss: 0.0037 lr: 0.02
+iteration: 48000 loss: 0.0035 lr: 0.02
+iteration: 49000 loss: 0.0039 lr: 0.02
+iteration: 50000 loss: 0.0041 lr: 0.02
+iteration: 51000 loss: 0.0041 lr: 0.02
+iteration: 52000 loss: 0.0035 lr: 0.02
+iteration: 53000 loss: 0.0034 lr: 0.02
+iteration: 54000 loss: 0.0033 lr: 0.02
+iteration: 55000 loss: 0.0048 lr: 0.02
+iteration: 56000 loss: 0.0035 lr: 0.02
+iteration: 57000 loss: 0.0034 lr: 0.02
+iteration: 58000 loss: 0.0034 lr: 0.02
+iteration: 59000 loss: 0.0032 lr: 0.02
+iteration: 60000 loss: 0.0032 lr: 0.02
+iteration: 61000 loss: 0.0031 lr: 0.02
+iteration: 62000 loss: 0.0034 lr: 0.02
+iteration: 63000 loss: 0.0053 lr: 0.02
+iteration: 64000 loss: 0.0042 lr: 0.02
+iteration: 65000 loss: 0.0035 lr: 0.02
+iteration: 66000 loss: 0.0035 lr: 0.02
+iteration: 67000 loss: 0.0032 lr: 0.02
+iteration: 68000 loss: 0.0032 lr: 0.02
+iteration: 69000 loss: 0.0030 lr: 0.02
+iteration: 70000 loss: 0.0030 lr: 0.02
+iteration: 71000 loss: 0.0029 lr: 0.02
+iteration: 72000 loss: 0.0030 lr: 0.02
+iteration: 73000 loss: 0.0029 lr: 0.02
+iteration: 74000 loss: 0.0029 lr: 0.02
+iteration: 75000 loss: 0.0028 lr: 0.02
+iteration: 76000 loss: 0.0029 lr: 0.02
+iteration: 77000 loss: 0.0028 lr: 0.02
+iteration: 78000 loss: 0.0028 lr: 0.02
+iteration: 79000 loss: 0.0028 lr: 0.02
+iteration: 80000 loss: 0.0027 lr: 0.02
+iteration: 81000 loss: 0.0027 lr: 0.02
+iteration: 82000 loss: 0.0036 lr: 0.02
+iteration: 83000 loss: 0.0035 lr: 0.02
+iteration: 84000 loss: 0.0030 lr: 0.02
+iteration: 85000 loss: 0.0034 lr: 0.02
+iteration: 86000 loss: 0.0030 lr: 0.02
+iteration: 87000 loss: 0.0028 lr: 0.02
+iteration: 88000 loss: 0.0030 lr: 0.02
+iteration: 89000 loss: 0.0027 lr: 0.02
+iteration: 90000 loss: 0.0026 lr: 0.02
+iteration: 91000 loss: 0.0026 lr: 0.02
+iteration: 92000 loss: 0.0026 lr: 0.02
+iteration: 93000 loss: 0.0030 lr: 0.02
+iteration: 94000 loss: 0.0026 lr: 0.02
+iteration: 95000 loss: 0.0025 lr: 0.02
+iteration: 96000 loss: 0.0026 lr: 0.02
+iteration: 97000 loss: 0.0026 lr: 0.02
+iteration: 98000 loss: 0.0025 lr: 0.02
+iteration: 99000 loss: 0.0025 lr: 0.02
+iteration: 100000 loss: 0.0025 lr: 0.02
+iteration: 101000 loss: 0.0025 lr: 0.02
+iteration: 102000 loss: 0.0024 lr: 0.02
+iteration: 103000 loss: 0.0025 lr: 0.02
+iteration: 104000 loss: 0.0024 lr: 0.02
+iteration: 105000 loss: 0.0024 lr: 0.02
+iteration: 106000 loss: 0.0024 lr: 0.02
+iteration: 107000 loss: 0.0030 lr: 0.02
+iteration: 108000 loss: 0.0026 lr: 0.02
+iteration: 109000 loss: 0.0025 lr: 0.02
+iteration: 110000 loss: 0.0024 lr: 0.02
+iteration: 111000 loss: 0.0024 lr: 0.02
+iteration: 112000 loss: 0.0028 lr: 0.02
+iteration: 113000 loss: 0.0025 lr: 0.02
+iteration: 114000 loss: 0.0024 lr: 0.02
+iteration: 115000 loss: 0.0024 lr: 0.02
+iteration: 116000 loss: 0.0023 lr: 0.02
+iteration: 117000 loss: 0.0023 lr: 0.02
+iteration: 118000 loss: 0.0026 lr: 0.02
+iteration: 119000 loss: 0.0023 lr: 0.02
+iteration: 120000 loss: 0.0023 lr: 0.02
+iteration: 121000 loss: 0.0023 lr: 0.02
+iteration: 122000 loss: 0.0023 lr: 0.02
+iteration: 123000 loss: 0.0025 lr: 0.02
+iteration: 124000 loss: 0.0023 lr: 0.02
+iteration: 125000 loss: 0.0025 lr: 0.02
+iteration: 126000 loss: 0.0023 lr: 0.02
+iteration: 127000 loss: 0.0023 lr: 0.02
+iteration: 128000 loss: 0.0023 lr: 0.02
+iteration: 129000 loss: 0.0023 lr: 0.02
+iteration: 130000 loss: 0.0022 lr: 0.02
+iteration: 131000 loss: 0.0022 lr: 0.02
+iteration: 132000 loss: 0.0022 lr: 0.02
+iteration: 133000 loss: 0.0022 lr: 0.02
+iteration: 134000 loss: 0.0022 lr: 0.02
+iteration: 135000 loss: 0.0022 lr: 0.02
+iteration: 136000 loss: 0.0022 lr: 0.02
+iteration: 137000 loss: 0.0022 lr: 0.02
+iteration: 138000 loss: 0.0022 lr: 0.02
+iteration: 139000 loss: 0.0022 lr: 0.02
+iteration: 140000 loss: 0.0022 lr: 0.02
+iteration: 141000 loss: 0.0023 lr: 0.02
+iteration: 142000 loss: 0.0022 lr: 0.02
+iteration: 143000 loss: 0.0022 lr: 0.02
+iteration: 144000 loss: 0.0022 lr: 0.02
+iteration: 145000 loss: 0.0021 lr: 0.02
+iteration: 146000 loss: 0.0021 lr: 0.02
+iteration: 147000 loss: 0.0023 lr: 0.02
+iteration: 148000 loss: 0.0022 lr: 0.02
+iteration: 149000 loss: 0.0022 lr: 0.02
+iteration: 150000 loss: 0.0022 lr: 0.02
+iteration: 151000 loss: 0.0021 lr: 0.02
+iteration: 152000 loss: 0.0021 lr: 0.02
+iteration: 153000 loss: 0.0021 lr: 0.02
+iteration: 154000 loss: 0.0021 lr: 0.02
+iteration: 155000 loss: 0.0021 lr: 0.02
+iteration: 156000 loss: 0.0021 lr: 0.02
+iteration: 157000 loss: 0.0021 lr: 0.02
+iteration: 158000 loss: 0.0021 lr: 0.02
+iteration: 159000 loss: 0.0021 lr: 0.02
+iteration: 160000 loss: 0.0021 lr: 0.02
+iteration: 161000 loss: 0.0021 lr: 0.02
+iteration: 162000 loss: 0.0020 lr: 0.02
+iteration: 163000 loss: 0.0021 lr: 0.02
+iteration: 164000 loss: 0.0020 lr: 0.02
+iteration: 165000 loss: 0.0021 lr: 0.02
+iteration: 166000 loss: 0.0021 lr: 0.02
+iteration: 167000 loss: 0.0021 lr: 0.02
+iteration: 168000 loss: 0.0021 lr: 0.02
+iteration: 169000 loss: 0.0021 lr: 0.02
+iteration: 170000 loss: 0.0020 lr: 0.02
+iteration: 171000 loss: 0.0020 lr: 0.02
+iteration: 172000 loss: 0.0020 lr: 0.02
+iteration: 173000 loss: 0.0020 lr: 0.02
+iteration: 174000 loss: 0.0020 lr: 0.02
+iteration: 175000 loss: 0.0021 lr: 0.02
+iteration: 176000 loss: 0.0020 lr: 0.02
+iteration: 177000 loss: 0.0020 lr: 0.02
+iteration: 178000 loss: 0.0020 lr: 0.02
+iteration: 179000 loss: 0.0020 lr: 0.02
+iteration: 180000 loss: 0.0020 lr: 0.02
+iteration: 181000 loss: 0.0020 lr: 0.02
+iteration: 182000 loss: 0.0019 lr: 0.02
+iteration: 183000 loss: 0.0020 lr: 0.02
+iteration: 184000 loss: 0.0020 lr: 0.02
+iteration: 185000 loss: 0.0020 lr: 0.02
+iteration: 186000 loss: 0.0020 lr: 0.02
+iteration: 187000 loss: 0.0020 lr: 0.02
+iteration: 188000 loss: 0.0020 lr: 0.02
+iteration: 189000 loss: 0.0022 lr: 0.02
+iteration: 190000 loss: 0.0019 lr: 0.02
+iteration: 191000 loss: 0.0019 lr: 0.02
+iteration: 192000 loss: 0.0019 lr: 0.02
+iteration: 193000 loss: 0.0020 lr: 0.02
+iteration: 194000 loss: 0.0020 lr: 0.02
+iteration: 195000 loss: 0.0020 lr: 0.02
+iteration: 196000 loss: 0.0019 lr: 0.02
+iteration: 197000 loss: 0.0020 lr: 0.02
+iteration: 198000 loss: 0.0020 lr: 0.02
+iteration: 199000 loss: 0.0019 lr: 0.02
+iteration: 200000 loss: 0.0019 lr: 0.02
+iteration: 201000 loss: 0.0019 lr: 0.02
+iteration: 202000 loss: 0.0019 lr: 0.02
+iteration: 203000 loss: 0.0019 lr: 0.02
+iteration: 204000 loss: 0.0019 lr: 0.02
+iteration: 205000 loss: 0.0019 lr: 0.02
+iteration: 206000 loss: 0.0019 lr: 0.02
+iteration: 207000 loss: 0.0019 lr: 0.02
+iteration: 208000 loss: 0.0019 lr: 0.02
+iteration: 209000 loss: 0.0019 lr: 0.02
+iteration: 210000 loss: 0.0018 lr: 0.02
+iteration: 211000 loss: 0.0019 lr: 0.02
+iteration: 212000 loss: 0.0019 lr: 0.02
+iteration: 213000 loss: 0.0019 lr: 0.02
+iteration: 214000 loss: 0.0019 lr: 0.02
+iteration: 215000 loss: 0.0024 lr: 0.02
+iteration: 216000 loss: 0.0019 lr: 0.02
+iteration: 217000 loss: 0.0019 lr: 0.02
+iteration: 218000 loss: 0.0019 lr: 0.02
+iteration: 219000 loss: 0.0018 lr: 0.02
+iteration: 220000 loss: 0.0019 lr: 0.02
+iteration: 221000 loss: 0.0019 lr: 0.02
+iteration: 222000 loss: 0.0019 lr: 0.02
+iteration: 223000 loss: 0.0019 lr: 0.02
+iteration: 224000 loss: 0.0019 lr: 0.02
+iteration: 225000 loss: 0.0019 lr: 0.02
+iteration: 226000 loss: 0.0019 lr: 0.02
+iteration: 227000 loss: 0.0019 lr: 0.02
+iteration: 228000 loss: 0.0018 lr: 0.02
+iteration: 229000 loss: 0.0018 lr: 0.02
+iteration: 230000 loss: 0.0019 lr: 0.02
+iteration: 231000 loss: 0.0019 lr: 0.02
+iteration: 232000 loss: 0.0019 lr: 0.02
+iteration: 233000 loss: 0.0018 lr: 0.02
+iteration: 234000 loss: 0.0018 lr: 0.02
+iteration: 235000 loss: 0.0018 lr: 0.02
+iteration: 236000 loss: 0.0018 lr: 0.02
+iteration: 237000 loss: 0.0018 lr: 0.02
+iteration: 238000 loss: 0.0019 lr: 0.02
+iteration: 239000 loss: 0.0018 lr: 0.02
+iteration: 240000 loss: 0.0018 lr: 0.02
+iteration: 241000 loss: 0.0018 lr: 0.02
+iteration: 242000 loss: 0.0018 lr: 0.02
+iteration: 243000 loss: 0.0018 lr: 0.02
+iteration: 244000 loss: 0.0018 lr: 0.02
+iteration: 245000 loss: 0.0019 lr: 0.02
+iteration: 246000 loss: 0.0018 lr: 0.02
+iteration: 247000 loss: 0.0018 lr: 0.02
+iteration: 248000 loss: 0.0018 lr: 0.02
+iteration: 249000 loss: 0.0021 lr: 0.02
+iteration: 250000 loss: 0.0019 lr: 0.02
+iteration: 251000 loss: 0.0019 lr: 0.02
+iteration: 252000 loss: 0.0018 lr: 0.02
+iteration: 253000 loss: 0.0018 lr: 0.02
+iteration: 254000 loss: 0.0018 lr: 0.02
+iteration: 255000 loss: 0.0018 lr: 0.02
+iteration: 256000 loss: 0.0018 lr: 0.02
+iteration: 257000 loss: 0.0018 lr: 0.02
+iteration: 258000 loss: 0.0018 lr: 0.02
+iteration: 259000 loss: 0.0018 lr: 0.02
+iteration: 260000 loss: 0.0018 lr: 0.02
+iteration: 261000 loss: 0.0018 lr: 0.02
+iteration: 262000 loss: 0.0018 lr: 0.02
+iteration: 263000 loss: 0.0018 lr: 0.02
+iteration: 264000 loss: 0.0018 lr: 0.02
+iteration: 265000 loss: 0.0018 lr: 0.02
+iteration: 266000 loss: 0.0018 lr: 0.02
+iteration: 267000 loss: 0.0018 lr: 0.02
+iteration: 268000 loss: 0.0018 lr: 0.02
+iteration: 269000 loss: 0.0018 lr: 0.02
+iteration: 270000 loss: 0.0019 lr: 0.02
+iteration: 271000 loss: 0.0018 lr: 0.02
+iteration: 272000 loss: 0.0018 lr: 0.02
+iteration: 273000 loss: 0.0018 lr: 0.02
+iteration: 274000 loss: 0.0018 lr: 0.02
+iteration: 275000 loss: 0.0017 lr: 0.02
+iteration: 276000 loss: 0.0017 lr: 0.02
+iteration: 277000 loss: 0.0018 lr: 0.02
+iteration: 278000 loss: 0.0018 lr: 0.02
+iteration: 279000 loss: 0.0018 lr: 0.02
+iteration: 280000 loss: 0.0017 lr: 0.02
+iteration: 281000 loss: 0.0017 lr: 0.02
+iteration: 282000 loss: 0.0017 lr: 0.02
+iteration: 283000 loss: 0.0017 lr: 0.02
+iteration: 284000 loss: 0.0019 lr: 0.02
+iteration: 285000 loss: 0.0017 lr: 0.02
+iteration: 286000 loss: 0.0017 lr: 0.02
+iteration: 287000 loss: 0.0018 lr: 0.02
+iteration: 288000 loss: 0.0017 lr: 0.02
+iteration: 289000 loss: 0.0017 lr: 0.02
+iteration: 290000 loss: 0.0017 lr: 0.02
+iteration: 291000 loss: 0.0017 lr: 0.02
+iteration: 292000 loss: 0.0017 lr: 0.02
+iteration: 293000 loss: 0.0017 lr: 0.02
+iteration: 294000 loss: 0.0017 lr: 0.02
+iteration: 295000 loss: 0.0018 lr: 0.02
+iteration: 296000 loss: 0.0017 lr: 0.02
+iteration: 297000 loss: 0.0017 lr: 0.02
+iteration: 298000 loss: 0.0017 lr: 0.02
+iteration: 299000 loss: 0.0017 lr: 0.02
+iteration: 300000 loss: 0.0018 lr: 0.02
+Exception in thread Thread-4:
+Traceback (most recent call last):
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/deeplabcut/pose_estimation_tensorflow/core/train.py", line 83, in load_and_enqueue
+    sess.run(enqueue_op, feed_dict=food)
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/tensorflow/python/client/session.py", line 967, in run
+    result = self._run(None, fetches, feed_dict, options_ptr,
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/tensorflow/python/client/session.py", line 1115, in _run
+    raise RuntimeError('Attempted to use a closed Session.')
+RuntimeError: Attempted to use a closed Session.
+Config:
+{'all_joints': [[0],
+                [1],
+                [2],
+                [3],
+                [4],
+                [5],
+                [6],
+                [7],
+                [8],
+                [9],
+                [10],
+                [11],
+                [12],
+                [13],
+                [14],
+                [15],
+                [16],
+                [17],
+                [18],
+                [19],
+                [20],
+                [21],
+                [22],
+                [23],
+                [24],
+                [25],
+                [26],
+                [27],
+                [28],
+                [29],
+                [30],
+                [31],
+                [32],
+                [33],
+                [34],
+                [35],
+                [36],
+                [37],
+                [38],
+                [39],
+                [40]],
+ 'all_joints_names': ['L1hip',
+                      'L1knee',
+                      'L1ankle',
+                      'L1toe',
+                      'L2hip',
+                      'L2knee',
+                      'L2ankle',
+                      'L2toe',
+                      'L3hip',
+                      'L3knee',
+                      'L3ankle',
+                      'L3toe',
+                      'R1hip',
+                      'R1knee',
+                      'R1ankle',
+                      'R1toe',
+                      'R2hip',
+                      'R2knee',
+                      'R2ankle',
+                      'R2toe',
+                      'R3hip',
+                      'R3knee',
+                      'R3ankle',
+                      'R3toe',
+                      'Leye',
+                      'Reye',
+                      'nose',
+                      'Lantenna1',
+                      'Lantenna2',
+                      'Lantenna3',
+                      'Lantenna4',
+                      'Rantenna1',
+                      'Rantenna2',
+                      'Rantenna3',
+                      'Rantenna4',
+                      'Lbody',
+                      'Rbody',
+                      'rear',
+                      'centerbody',
+                      'Lshoulder',
+                      'Rshoulder'],
+ 'alpha_r': 0.02,
+ 'apply_prob': 0.5,
+ 'batch_size': 1,
+ 'contrast': {'clahe': True,
+              'claheratio': 0.1,
+              'histeq': True,
+              'histeqratio': 0.1},
+ 'convolution': {'edge': False, 'emboss': False, 'sharpen': False},
+ 'covering': True,
+ 'crop_by': 0.0,
+ 'crop_pad': 0,
+ 'cropratio': 0.0,
+ 'dataset': 'training-datasets/iteration-1/UnaugmentedDataSet_stinkbugsJul15/stinkbugs_DLC80shuffle1.mat',
+ 'dataset_type': 'imgaug',
+ 'decay_steps': 30000,
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'elastic_transform': True,
+ 'fg_fraction': 0.25,
+ 'gaussian_noise': False,
+ 'global_scale': 0.8,
+ 'grayscale': False,
+ 'init_weights': '/media/data/model-weights/resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'lr_init': 0.0005,
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets/iteration-1/UnaugmentedDataSet_stinkbugsJul15/Documentation_data-stinkbugs_80shuffle1.pickle',
+ 'min_input_size': 64,
+ 'mirror': False,
+ 'motion_blur': True,
+ 'motion_blur_params': {'angle': [-90, 90], 'k': 7},
+ 'multi_stage': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 41,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': False,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'pos_dist_thresh': 17,
+ 'pre_resize': [],
+ 'project_path': '/media/data/stinkbugs-DLC-2022-07-15',
+ 'regularize': False,
+ 'rotation': 25,
+ 'rotratio': 0.4,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': '/media/data/stinkbugs-DLC-2022-07-15/data_augm_01_crop/dlc-models/iteration-1/stinkbugsJul15-trainset80shuffle1/train/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2022-07-20 04:35:07.369139: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1532] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 22344 MB memory:  -> device: 0, name: NVIDIA RTX A5000, pci bus id: 0000:19:00.0, compute capability: 8.6
+{'stride': 8.0, 'weigh_part_predictions': False, 'weigh_negatives': False, 'fg_fraction': 0.25, 'mean_pixel': [123.68, 116.779, 103.939], 'shuffle': True, 'snapshot_prefix': '/media/data/stinkbugs-DLC-2022-07-15/data_augm_00_baseline/dlc-models/iteration-1/stinkbugsJul15-trainset80shuffle2/train/snapshot', 'log_dir': 'log', 'global_scale': 0.8, 'location_refinement': True, 'locref_stdev': 7.2801, 'locref_loss_weight': 0.05, 'locref_huber_loss': True, 'optimizer': 'sgd', 'intermediate_supervision': False, 'intermediate_supervision_layer': 12, 'regularize': False, 'weight_decay': 0.0001, 'crop_pad': 0, 'scoremap_dir': 'test', 'batch_size': 1, 'dataset_type': 'imgaug', 'deterministic': False, 'mirror': False, 'pairwise_huber_loss': False, 'weigh_only_present_joints': False, 'partaffinityfield_predict': False, 'pairwise_predict': False, 'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20], [21], [22], [23], [24], [25], [26], [27], [28], [29], [30], [31], [32], [33], [34], [35], [36], [37], [38], [39], [40]], 'all_joints_names': ['L1hip', 'L1knee', 'L1ankle', 'L1toe', 'L2hip', 'L2knee', 'L2ankle', 'L2toe', 'L3hip', 'L3knee', 'L3ankle', 'L3toe', 'R1hip', 'R1knee', 'R1ankle', 'R1toe', 'R2hip', 'R2knee', 'R2ankle', 'R2toe', 'R3hip', 'R3knee', 'R3ankle', 'R3toe', 'Leye', 'Reye', 'nose', 'Lantenna1', 'Lantenna2', 'Lantenna3', 'Lantenna4', 'Rantenna1', 'Rantenna2', 'Rantenna3', 'Rantenna4', 'Lbody', 'Rbody', 'rear', 'centerbody', 'Lshoulder', 'Rshoulder'], 'alpha_r': 0.02, 'apply_prob': 0.5, 'contrast': {'clahe': True, 'claheratio': 0.1, 'histeq': True, 'histeqratio': 0.1, 'gamma': False, 'sigmoid': False, 'log': False, 'linear': False}, 'convolution': {'sharpen': False, 'edge': False, 'emboss': False}, 'cropratio': 0.4, 'dataset': 'training-datasets/iteration-1/UnaugmentedDataSet_stinkbugsJul15/stinkbugs_DLC80shuffle2.mat', 'decay_steps': 30000, 'display_iters': 1000, 'init_weights': '/media/data/model-weights/resnet_v1_50.ckpt', 'lr_init': 0.0005, 'max_input_size': 1500, 'metadataset': 'training-datasets/iteration-1/UnaugmentedDataSet_stinkbugsJul15/Documentation_data-stinkbugs_80shuffle2.pickle', 'min_input_size': 64, 'multi_stage': False, 'multi_step': [[0.005, 10000], [0.02, 430000], [0.002, 730000], [0.001, 1030000]], 'net_type': 'resnet_50', 'num_joints': 41, 'pos_dist_thresh': 17, 'project_path': '/media/data/stinkbugs-DLC-2022-07-15', 'rotation': 25, 'rotratio': 0.4, 'save_iters': 50000, 'scale_jitter_lo': 0.5, 'scale_jitter_up': 1.25, 'pre_resize': [], 'crop_by': 0.15, 'motion_blur': True, 'motion_blur_params': {'k': 7, 'angle': [-90, 90]}, 'grayscale': False, 'covering': True, 'elastic_transform': True, 'gaussian_noise': False}
+Starting training....
+The network is now trained and ready to evaluate. Use the function 'evaluate_network' to evaluate the network.
+Selecting single-animal trainer
+Batch Size is 1
+Loading ImageNet-pretrained resnet_50
+Max_iters overwritten as 300000
+Display_iters overwritten as 1000
+Save_iters overwritten as 50000
+Training parameter:
+{'stride': 8.0, 'weigh_part_predictions': False, 'weigh_negatives': False, 'fg_fraction': 0.25, 'mean_pixel': [123.68, 116.779, 103.939], 'shuffle': True, 'snapshot_prefix': '/media/data/stinkbugs-DLC-2022-07-15/data_augm_01_crop/dlc-models/iteration-1/stinkbugsJul15-trainset80shuffle0/train/snapshot', 'log_dir': 'log', 'global_scale': 0.8, 'location_refinement': True, 'locref_stdev': 7.2801, 'locref_loss_weight': 0.05, 'locref_huber_loss': True, 'optimizer': 'sgd', 'intermediate_supervision': False, 'intermediate_supervision_layer': 12, 'regularize': False, 'weight_decay': 0.0001, 'crop_pad': 0, 'scoremap_dir': 'test', 'batch_size': 1, 'dataset_type': 'imgaug', 'deterministic': False, 'mirror': False, 'pairwise_huber_loss': False, 'weigh_only_present_joints': False, 'partaffinityfield_predict': False, 'pairwise_predict': False, 'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20], [21], [22], [23], [24], [25], [26], [27], [28], [29], [30], [31], [32], [33], [34], [35], [36], [37], [38], [39], [40]], 'all_joints_names': ['L1hip', 'L1knee', 'L1ankle', 'L1toe', 'L2hip', 'L2knee', 'L2ankle', 'L2toe', 'L3hip', 'L3knee', 'L3ankle', 'L3toe', 'R1hip', 'R1knee', 'R1ankle', 'R1toe', 'R2hip', 'R2knee', 'R2ankle', 'R2toe', 'R3hip', 'R3knee', 'R3ankle', 'R3toe', 'Leye', 'Reye', 'nose', 'Lantenna1', 'Lantenna2', 'Lantenna3', 'Lantenna4', 'Rantenna1', 'Rantenna2', 'Rantenna3', 'Rantenna4', 'Lbody', 'Rbody', 'rear', 'centerbody', 'Lshoulder', 'Rshoulder'], 'alpha_r': 0.02, 'apply_prob': 0.5, 'contrast': {'clahe': True, 'claheratio': 0.1, 'histeq': True, 'histeqratio': 0.1, 'gamma': False, 'sigmoid': False, 'log': False, 'linear': False}, 'convolution': {'sharpen': False, 'edge': False, 'emboss': False}, 'dataset': 'training-datasets/iteration-1/UnaugmentedDataSet_stinkbugsJul15/stinkbugs_DLC80shuffle0.mat', 'decay_steps': 30000, 'display_iters': 1000, 'init_weights': '/media/data/model-weights/resnet_v1_50.ckpt', 'lr_init': 0.0005, 'max_input_size': 1500, 'metadataset': 'training-datasets/iteration-1/UnaugmentedDataSet_stinkbugsJul15/Documentation_data-stinkbugs_80shuffle0.pickle', 'min_input_size': 64, 'multi_stage': False, 'multi_step': [[0.005, 10000], [0.02, 430000], [0.002, 730000], [0.001, 1030000]], 'net_type': 'resnet_50', 'num_joints': 41, 'pos_dist_thresh': 17, 'project_path': '/media/data/stinkbugs-DLC-2022-07-15', 'rotation': 25, 'rotratio': 0.4, 'save_iters': 50000, 'scale_jitter_lo': 0.5, 'scale_jitter_up': 1.25, 'pre_resize': [], 'crop_by': 0.0, 'cropratio': 0.0, 'motion_blur': True, 'motion_blur_params': {'k': 7, 'angle': [-90, 90]}, 'grayscale': False, 'covering': True, 'elastic_transform': True, 'gaussian_noise': False}
+Starting training....
+The network is now trained and ready to evaluate. Use the function 'evaluate_network' to evaluate the network.
+Selecting single-animal trainer
+Batch Size is 1
+Loading ImageNet-pretrained resnet_50
+Max_iters overwritten as 300000
+Display_iters overwritten as 1000
+Save_iters overwritten as 50000
+Training parameter:
+iteration: 1000 loss: 0.0291 lr: 0.005
+iteration: 2000 loss: 0.0192 lr: 0.005
+iteration: 3000 loss: 0.0171 lr: 0.005
+iteration: 4000 loss: 0.0158 lr: 0.005
+iteration: 5000 loss: 0.0143 lr: 0.005
+iteration: 6000 loss: 0.0144 lr: 0.005
+iteration: 7000 loss: 0.0127 lr: 0.005
+iteration: 8000 loss: 0.0118 lr: 0.005
+iteration: 9000 loss: 0.0130 lr: 0.005
+iteration: 10000 loss: 0.0107 lr: 0.005
+iteration: 11000 loss: 0.0117 lr: 0.02
+iteration: 12000 loss: 0.0115 lr: 0.02
+iteration: 13000 loss: 0.0091 lr: 0.02
+iteration: 14000 loss: 0.0079 lr: 0.02
+iteration: 15000 loss: 0.0083 lr: 0.02
+iteration: 16000 loss: 0.0072 lr: 0.02
+iteration: 17000 loss: 0.0068 lr: 0.02
+iteration: 18000 loss: 0.0064 lr: 0.02
+iteration: 19000 loss: 0.0067 lr: 0.02
+iteration: 20000 loss: 0.0064 lr: 0.02
+iteration: 21000 loss: 0.0136 lr: 0.02
+iteration: 22000 loss: 0.0081 lr: 0.02
+iteration: 23000 loss: 0.0070 lr: 0.02
+iteration: 24000 loss: 0.0065 lr: 0.02
+iteration: 25000 loss: 0.0059 lr: 0.02
+iteration: 26000 loss: 0.0058 lr: 0.02
+iteration: 27000 loss: 0.0087 lr: 0.02
+iteration: 28000 loss: 0.0061 lr: 0.02
+iteration: 29000 loss: 0.0056 lr: 0.02
+iteration: 30000 loss: 0.0055 lr: 0.02
+iteration: 31000 loss: 0.0051 lr: 0.02
+iteration: 32000 loss: 0.0049 lr: 0.02
+iteration: 33000 loss: 0.0047 lr: 0.02
+iteration: 34000 loss: 0.0046 lr: 0.02
+iteration: 35000 loss: 0.0045 lr: 0.02
+iteration: 36000 loss: 0.0044 lr: 0.02
+iteration: 37000 loss: 0.0042 lr: 0.02
+iteration: 38000 loss: 0.0042 lr: 0.02
+iteration: 39000 loss: 0.0046 lr: 0.02
+iteration: 40000 loss: 0.0041 lr: 0.02
+iteration: 41000 loss: 0.0048 lr: 0.02
+iteration: 42000 loss: 0.0043 lr: 0.02
+iteration: 43000 loss: 0.0040 lr: 0.02
+iteration: 44000 loss: 0.0039 lr: 0.02
+iteration: 45000 loss: 0.0039 lr: 0.02
+iteration: 46000 loss: 0.0037 lr: 0.02
+iteration: 47000 loss: 0.0036 lr: 0.02
+iteration: 48000 loss: 0.0039 lr: 0.02
+iteration: 49000 loss: 0.0036 lr: 0.02
+iteration: 50000 loss: 0.0040 lr: 0.02
+iteration: 51000 loss: 0.0045 lr: 0.02
+iteration: 52000 loss: 0.0037 lr: 0.02
+iteration: 53000 loss: 0.0035 lr: 0.02
+iteration: 54000 loss: 0.0034 lr: 0.02
+iteration: 55000 loss: 0.0034 lr: 0.02
+iteration: 56000 loss: 0.0033 lr: 0.02
+iteration: 57000 loss: 0.0033 lr: 0.02
+iteration: 58000 loss: 0.0033 lr: 0.02
+iteration: 59000 loss: 0.0036 lr: 0.02
+iteration: 60000 loss: 0.0032 lr: 0.02
+iteration: 61000 loss: 0.0033 lr: 0.02
+iteration: 62000 loss: 0.0031 lr: 0.02
+iteration: 63000 loss: 0.0031 lr: 0.02
+iteration: 64000 loss: 0.0031 lr: 0.02
+iteration: 65000 loss: 0.0031 lr: 0.02
+iteration: 66000 loss: 0.0034 lr: 0.02
+iteration: 67000 loss: 0.0032 lr: 0.02
+iteration: 68000 loss: 0.0031 lr: 0.02
+iteration: 69000 loss: 0.0031 lr: 0.02
+iteration: 70000 loss: 0.0031 lr: 0.02
+iteration: 71000 loss: 0.0030 lr: 0.02
+iteration: 72000 loss: 0.0029 lr: 0.02
+iteration: 73000 loss: 0.0029 lr: 0.02
+iteration: 74000 loss: 0.0029 lr: 0.02
+iteration: 75000 loss: 0.0028 lr: 0.02
+iteration: 76000 loss: 0.0028 lr: 0.02
+iteration: 77000 loss: 0.0028 lr: 0.02
+iteration: 78000 loss: 0.0028 lr: 0.02
+iteration: 79000 loss: 0.0029 lr: 0.02
+iteration: 80000 loss: 0.0028 lr: 0.02
+iteration: 81000 loss: 0.0027 lr: 0.02
+iteration: 82000 loss: 0.0029 lr: 0.02
+iteration: 83000 loss: 0.0027 lr: 0.02
+iteration: 84000 loss: 0.0027 lr: 0.02
+iteration: 85000 loss: 0.0027 lr: 0.02
+iteration: 86000 loss: 0.0027 lr: 0.02
+iteration: 87000 loss: 0.0026 lr: 0.02
+iteration: 88000 loss: 0.0026 lr: 0.02
+iteration: 89000 loss: 0.0027 lr: 0.02
+iteration: 90000 loss: 0.0027 lr: 0.02
+iteration: 91000 loss: 0.0026 lr: 0.02
+iteration: 92000 loss: 0.0026 lr: 0.02
+iteration: 93000 loss: 0.0028 lr: 0.02
+iteration: 94000 loss: 0.0027 lr: 0.02
+iteration: 95000 loss: 0.0026 lr: 0.02
+iteration: 96000 loss: 0.0026 lr: 0.02
+iteration: 97000 loss: 0.0025 lr: 0.02
+iteration: 98000 loss: 0.0026 lr: 0.02
+iteration: 99000 loss: 0.0034 lr: 0.02
+iteration: 100000 loss: 0.0026 lr: 0.02
+iteration: 101000 loss: 0.0025 lr: 0.02
+iteration: 102000 loss: 0.0025 lr: 0.02
+iteration: 103000 loss: 0.0025 lr: 0.02
+iteration: 104000 loss: 0.0025 lr: 0.02
+iteration: 105000 loss: 0.0024 lr: 0.02
+iteration: 106000 loss: 0.0024 lr: 0.02
+iteration: 107000 loss: 0.0031 lr: 0.02
+iteration: 108000 loss: 0.0028 lr: 0.02
+iteration: 109000 loss: 0.0025 lr: 0.02
+iteration: 110000 loss: 0.0025 lr: 0.02
+iteration: 111000 loss: 0.0025 lr: 0.02
+iteration: 112000 loss: 0.0025 lr: 0.02
+iteration: 113000 loss: 0.0024 lr: 0.02
+iteration: 114000 loss: 0.0024 lr: 0.02
+iteration: 115000 loss: 0.0024 lr: 0.02
+iteration: 116000 loss: 0.0024 lr: 0.02
+iteration: 117000 loss: 0.0023 lr: 0.02
+iteration: 118000 loss: 0.0023 lr: 0.02
+iteration: 119000 loss: 0.0024 lr: 0.02
+iteration: 120000 loss: 0.0023 lr: 0.02
+iteration: 121000 loss: 0.0028 lr: 0.02
+iteration: 122000 loss: 0.0024 lr: 0.02
+iteration: 123000 loss: 0.0024 lr: 0.02
+iteration: 124000 loss: 0.0024 lr: 0.02
+iteration: 125000 loss: 0.0024 lr: 0.02
+iteration: 126000 loss: 0.0023 lr: 0.02
+iteration: 127000 loss: 0.0025 lr: 0.02
+iteration: 128000 loss: 0.0023 lr: 0.02
+iteration: 129000 loss: 0.0023 lr: 0.02
+iteration: 130000 loss: 0.0040 lr: 0.02
+iteration: 131000 loss: 0.0026 lr: 0.02
+iteration: 132000 loss: 0.0025 lr: 0.02
+iteration: 133000 loss: 0.0024 lr: 0.02
+iteration: 134000 loss: 0.0024 lr: 0.02
+iteration: 135000 loss: 0.0026 lr: 0.02
+iteration: 136000 loss: 0.0026 lr: 0.02
+iteration: 137000 loss: 0.0026 lr: 0.02
+iteration: 138000 loss: 0.0023 lr: 0.02
+iteration: 139000 loss: 0.0023 lr: 0.02
+iteration: 140000 loss: 0.0023 lr: 0.02
+iteration: 141000 loss: 0.0023 lr: 0.02
+iteration: 142000 loss: 0.0023 lr: 0.02
+iteration: 143000 loss: 0.0023 lr: 0.02
+iteration: 144000 loss: 0.0023 lr: 0.02
+iteration: 145000 loss: 0.0023 lr: 0.02
+iteration: 146000 loss: 0.0022 lr: 0.02
+iteration: 147000 loss: 0.0022 lr: 0.02
+iteration: 148000 loss: 0.0022 lr: 0.02
+iteration: 149000 loss: 0.0021 lr: 0.02
+iteration: 150000 loss: 0.0021 lr: 0.02
+iteration: 151000 loss: 0.0021 lr: 0.02
+iteration: 152000 loss: 0.0022 lr: 0.02
+iteration: 153000 loss: 0.0021 lr: 0.02
+iteration: 154000 loss: 0.0021 lr: 0.02
+iteration: 155000 loss: 0.0022 lr: 0.02
+iteration: 156000 loss: 0.0022 lr: 0.02
+iteration: 157000 loss: 0.0022 lr: 0.02
+iteration: 158000 loss: 0.0021 lr: 0.02
+iteration: 159000 loss: 0.0021 lr: 0.02
+iteration: 160000 loss: 0.0022 lr: 0.02
+iteration: 161000 loss: 0.0021 lr: 0.02
+iteration: 162000 loss: 0.0021 lr: 0.02
+iteration: 163000 loss: 0.0021 lr: 0.02
+iteration: 164000 loss: 0.0021 lr: 0.02
+iteration: 165000 loss: 0.0021 lr: 0.02
+iteration: 166000 loss: 0.0023 lr: 0.02
+iteration: 167000 loss: 0.0021 lr: 0.02
+iteration: 168000 loss: 0.0021 lr: 0.02
+iteration: 169000 loss: 0.0021 lr: 0.02
+iteration: 170000 loss: 0.0021 lr: 0.02
+iteration: 171000 loss: 0.0024 lr: 0.02
+iteration: 172000 loss: 0.0021 lr: 0.02
+iteration: 173000 loss: 0.0021 lr: 0.02
+iteration: 174000 loss: 0.0021 lr: 0.02
+iteration: 175000 loss: 0.0021 lr: 0.02
+iteration: 176000 loss: 0.0021 lr: 0.02
+iteration: 177000 loss: 0.0021 lr: 0.02
+iteration: 178000 loss: 0.0021 lr: 0.02
+iteration: 179000 loss: 0.0022 lr: 0.02
+iteration: 180000 loss: 0.0020 lr: 0.02
+iteration: 181000 loss: 0.0020 lr: 0.02
+iteration: 182000 loss: 0.0022 lr: 0.02
+iteration: 183000 loss: 0.0020 lr: 0.02
+iteration: 184000 loss: 0.0020 lr: 0.02
+iteration: 185000 loss: 0.0020 lr: 0.02
+iteration: 186000 loss: 0.0020 lr: 0.02
+iteration: 187000 loss: 0.0020 lr: 0.02
+iteration: 188000 loss: 0.0020 lr: 0.02
+iteration: 189000 loss: 0.0020 lr: 0.02
+iteration: 190000 loss: 0.0020 lr: 0.02
+iteration: 191000 loss: 0.0020 lr: 0.02
+iteration: 192000 loss: 0.0020 lr: 0.02
+iteration: 193000 loss: 0.0020 lr: 0.02
+iteration: 194000 loss: 0.0020 lr: 0.02
+iteration: 195000 loss: 0.0020 lr: 0.02
+iteration: 196000 loss: 0.0020 lr: 0.02
+iteration: 197000 loss: 0.0020 lr: 0.02
+iteration: 198000 loss: 0.0020 lr: 0.02
+iteration: 199000 loss: 0.0020 lr: 0.02
+iteration: 200000 loss: 0.0019 lr: 0.02
+iteration: 201000 loss: 0.0019 lr: 0.02
+iteration: 202000 loss: 0.0020 lr: 0.02
+iteration: 203000 loss: 0.0019 lr: 0.02
+iteration: 204000 loss: 0.0019 lr: 0.02
+iteration: 205000 loss: 0.0019 lr: 0.02
+iteration: 206000 loss: 0.0021 lr: 0.02
+iteration: 207000 loss: 0.0020 lr: 0.02
+iteration: 208000 loss: 0.0020 lr: 0.02
+iteration: 209000 loss: 0.0019 lr: 0.02
+iteration: 210000 loss: 0.0020 lr: 0.02
+iteration: 211000 loss: 0.0020 lr: 0.02
+iteration: 212000 loss: 0.0020 lr: 0.02
+iteration: 213000 loss: 0.0019 lr: 0.02
+iteration: 214000 loss: 0.0019 lr: 0.02
+iteration: 215000 loss: 0.0019 lr: 0.02
+iteration: 216000 loss: 0.0019 lr: 0.02
+iteration: 217000 loss: 0.0019 lr: 0.02
+iteration: 218000 loss: 0.0019 lr: 0.02
+iteration: 219000 loss: 0.0019 lr: 0.02
+iteration: 220000 loss: 0.0019 lr: 0.02
+iteration: 221000 loss: 0.0019 lr: 0.02
+iteration: 222000 loss: 0.0019 lr: 0.02
+iteration: 223000 loss: 0.0019 lr: 0.02
+iteration: 224000 loss: 0.0020 lr: 0.02
+iteration: 225000 loss: 0.0020 lr: 0.02
+iteration: 226000 loss: 0.0020 lr: 0.02
+iteration: 227000 loss: 0.0019 lr: 0.02
+iteration: 228000 loss: 0.0021 lr: 0.02
+iteration: 229000 loss: 0.0020 lr: 0.02
+iteration: 230000 loss: 0.0019 lr: 0.02
+iteration: 231000 loss: 0.0019 lr: 0.02
+iteration: 232000 loss: 0.0019 lr: 0.02
+iteration: 233000 loss: 0.0019 lr: 0.02
+iteration: 234000 loss: 0.0019 lr: 0.02
+iteration: 235000 loss: 0.0019 lr: 0.02
+iteration: 236000 loss: 0.0019 lr: 0.02
+iteration: 237000 loss: 0.0019 lr: 0.02
+iteration: 238000 loss: 0.0018 lr: 0.02
+iteration: 239000 loss: 0.0019 lr: 0.02
+iteration: 240000 loss: 0.0018 lr: 0.02
+iteration: 241000 loss: 0.0022 lr: 0.02
+iteration: 242000 loss: 0.0019 lr: 0.02
+iteration: 243000 loss: 0.0019 lr: 0.02
+iteration: 244000 loss: 0.0019 lr: 0.02
+iteration: 245000 loss: 0.0019 lr: 0.02
+iteration: 246000 loss: 0.0019 lr: 0.02
+iteration: 247000 loss: 0.0019 lr: 0.02
+iteration: 248000 loss: 0.0018 lr: 0.02
+iteration: 249000 loss: 0.0019 lr: 0.02
+iteration: 250000 loss: 0.0019 lr: 0.02
+iteration: 251000 loss: 0.0018 lr: 0.02
+iteration: 252000 loss: 0.0018 lr: 0.02
+iteration: 253000 loss: 0.0019 lr: 0.02
+iteration: 254000 loss: 0.0018 lr: 0.02
+iteration: 255000 loss: 0.0018 lr: 0.02
+iteration: 256000 loss: 0.0018 lr: 0.02
+iteration: 257000 loss: 0.0018 lr: 0.02
+iteration: 258000 loss: 0.0018 lr: 0.02
+iteration: 259000 loss: 0.0018 lr: 0.02
+iteration: 260000 loss: 0.0018 lr: 0.02
+iteration: 261000 loss: 0.0018 lr: 0.02
+iteration: 262000 loss: 0.0018 lr: 0.02
+iteration: 263000 loss: 0.0018 lr: 0.02
+iteration: 264000 loss: 0.0018 lr: 0.02
+iteration: 265000 loss: 0.0019 lr: 0.02
+iteration: 266000 loss: 0.0018 lr: 0.02
+iteration: 267000 loss: 0.0018 lr: 0.02
+iteration: 268000 loss: 0.0018 lr: 0.02
+iteration: 269000 loss: 0.0018 lr: 0.02
+iteration: 270000 loss: 0.0018 lr: 0.02
+iteration: 271000 loss: 0.0018 lr: 0.02
+iteration: 272000 loss: 0.0020 lr: 0.02
+iteration: 273000 loss: 0.0018 lr: 0.02
+iteration: 274000 loss: 0.0018 lr: 0.02
+iteration: 275000 loss: 0.0018 lr: 0.02
+iteration: 276000 loss: 0.0018 lr: 0.02
+iteration: 277000 loss: 0.0018 lr: 0.02
+iteration: 278000 loss: 0.0018 lr: 0.02
+iteration: 279000 loss: 0.0018 lr: 0.02
+iteration: 280000 loss: 0.0018 lr: 0.02
+iteration: 281000 loss: 0.0018 lr: 0.02
+iteration: 282000 loss: 0.0018 lr: 0.02
+iteration: 283000 loss: 0.0018 lr: 0.02
+iteration: 284000 loss: 0.0018 lr: 0.02
+iteration: 285000 loss: 0.0018 lr: 0.02
+iteration: 286000 loss: 0.0018 lr: 0.02
+iteration: 287000 loss: 0.0018 lr: 0.02
+iteration: 288000 loss: 0.0018 lr: 0.02
+iteration: 289000 loss: 0.0018 lr: 0.02
+iteration: 290000 loss: 0.0018 lr: 0.02
+iteration: 291000 loss: 0.0018 lr: 0.02
+iteration: 292000 loss: 0.0017 lr: 0.02
+iteration: 293000 loss: 0.0018 lr: 0.02
+iteration: 294000 loss: 0.0017 lr: 0.02
+iteration: 295000 loss: 0.0018 lr: 0.02
+iteration: 296000 loss: 0.0018 lr: 0.02
+iteration: 297000 loss: 0.0017 lr: 0.02
+iteration: 298000 loss: 0.0017 lr: 0.02
+iteration: 299000 loss: 0.0018 lr: 0.02
+iteration: 300000 loss: 0.0018 lr: 0.02
+Exception in thread Thread-5:
+Traceback (most recent call last):
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/deeplabcut/pose_estimation_tensorflow/core/train.py", line 83, in load_and_enqueue
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/tensorflow/python/client/session.py", line 967, in run
+    result = self._run(None, fetches, feed_dict, options_ptr,
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/tensorflow/python/client/session.py", line 1115, in _run
+    raise RuntimeError('Attempted to use a closed Session.')
+RuntimeError: Attempted to use a closed Session.
+{'stride': 8.0, 'weigh_part_predictions': False, 'weigh_negatives': False, 'fg_fraction': 0.25, 'mean_pixel': [123.68, 116.779, 103.939], 'shuffle': True, 'snapshot_prefix': '/media/data/stinkbugs-DLC-2022-07-15/data_augm_01_crop/dlc-models/iteration-1/stinkbugsJul15-trainset80shuffle1/train/snapshot', 'log_dir': 'log', 'global_scale': 0.8, 'location_refinement': True, 'locref_stdev': 7.2801, 'locref_loss_weight': 0.05, 'locref_huber_loss': True, 'optimizer': 'sgd', 'intermediate_supervision': False, 'intermediate_supervision_layer': 12, 'regularize': False, 'weight_decay': 0.0001, 'crop_pad': 0, 'scoremap_dir': 'test', 'batch_size': 1, 'dataset_type': 'imgaug', 'deterministic': False, 'mirror': False, 'pairwise_huber_loss': False, 'weigh_only_present_joints': False, 'partaffinityfield_predict': False, 'pairwise_predict': False, 'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20], [21], [22], [23], [24], [25], [26], [27], [28], [29], [30], [31], [32], [33], [34], [35], [36], [37], [38], [39], [40]], 'all_joints_names': ['L1hip', 'L1knee', 'L1ankle', 'L1toe', 'L2hip', 'L2knee', 'L2ankle', 'L2toe', 'L3hip', 'L3knee', 'L3ankle', 'L3toe', 'R1hip', 'R1knee', 'R1ankle', 'R1toe', 'R2hip', 'R2knee', 'R2ankle', 'R2toe', 'R3hip', 'R3knee', 'R3ankle', 'R3toe', 'Leye', 'Reye', 'nose', 'Lantenna1', 'Lantenna2', 'Lantenna3', 'Lantenna4', 'Rantenna1', 'Rantenna2', 'Rantenna3', 'Rantenna4', 'Lbody', 'Rbody', 'rear', 'centerbody', 'Lshoulder', 'Rshoulder'], 'alpha_r': 0.02, 'apply_prob': 0.5, 'contrast': {'clahe': True, 'claheratio': 0.1, 'histeq': True, 'histeqratio': 0.1, 'gamma': False, 'sigmoid': False, 'log': False, 'linear': False}, 'convolution': {'sharpen': False, 'edge': False, 'emboss': False}, 'cropratio': 0.0, 'dataset': 'training-datasets/iteration-1/UnaugmentedDataSet_stinkbugsJul15/stinkbugs_DLC80shuffle1.mat', 'decay_steps': 30000, 'display_iters': 1000, 'init_weights': '/media/data/model-weights/resnet_v1_50.ckpt', 'lr_init': 0.0005, 'max_input_size': 1500, 'metadataset': 'training-datasets/iteration-1/UnaugmentedDataSet_stinkbugsJul15/Documentation_data-stinkbugs_80shuffle1.pickle', 'min_input_size': 64, 'multi_stage': False, 'multi_step': [[0.005, 10000], [0.02, 430000], [0.002, 730000], [0.001, 1030000]], 'net_type': 'resnet_50', 'num_joints': 41, 'pos_dist_thresh': 17, 'project_path': '/media/data/stinkbugs-DLC-2022-07-15', 'rotation': 25, 'rotratio': 0.4, 'save_iters': 50000, 'scale_jitter_lo': 0.5, 'scale_jitter_up': 1.25, 'pre_resize': [], 'crop_by': 0.0, 'motion_blur': True, 'motion_blur_params': {'k': 7, 'angle': [-90, 90]}, 'grayscale': False, 'covering': True, 'elastic_transform': True, 'gaussian_noise': False}
+Starting training....
+The network is now trained and ready to evaluate. Use the function 'evaluate_network' to evaluate the network.
+Selecting single-animal trainer
+Traceback (most recent call last):
+  File "train_augmentation_models.py", line 27, in <module>
+    train_all_shuffles(config_path, # config.yaml, common to all models
+  File "/home/jonas2/DLC_files/python_scripts/CaseStudyScripts/train_all_shuffles.py", line 34, in train_all_shuffles
+    deeplabcut.train_network(config_path, # config.yaml, common to all models
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/deeplabcut/pose_estimation_tensorflow/training.py", line 218, in train_network
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/deeplabcut/pose_estimation_tensorflow/training.py", line 207, in train_network
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/deeplabcut/pose_estimation_tensorflow/core/train.py", line 158, in train
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/deeplabcut/pose_estimation_tensorflow/config.py", line 62, in load_config
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/site-packages/deeplabcut/pose_estimation_tensorflow/config.py", line 52, in cfg_from_file
+  File "/home/jonas2/miniconda/envs/dlc/lib/python3.8/importlib/__init__.py", line 168, in reload
+    raise ModuleNotFoundError(f"spec not found for the module {name!r}", name=name)
+ModuleNotFoundError: spec not found for the module 'deeplabcut.pose_estimation_tensorflow.default_config'
